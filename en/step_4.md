@@ -1,10 +1,10 @@
-## Add enemies
+## Add items to collect
 
-Add enemies to some rooms that the player must avoid.
+Add items in the rooms for the player to collect as they move through the maze.
 
 --- task ---
 
-Adding an enemy to a room is the same as adding an item. Add a monster to the Kitchen:
+To put an item in a room, you add it to a room's dictionary. Add a key in the Hall.
 
 --- code ---
 ---
@@ -20,34 +20,15 @@ rooms = {
         'east' : 'Dining Room',
         'item' : 'key'
     },
-    'Kitchen' : {
-        'north' : 'Hall',
-        'item' : 'monster'
-    },
 --- /code ---
 
---- /task ---
+Remember to put a comma after the line above the new item, or your program won’t run!
 
-If the player enters a room with a monster in, the game ends. Test out your code by going into the Kitchen, which now contains a monster.
+--- /task ---
 
 --- task ---
-Click **Stop** then click **Run** and type `go south`.
 
---- code ---
----
-language: text
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
----------------------------
-You are in the Hall
-Inventory : []
-You see a key
----------------------------
->go south
-
-A monster has got you... GAME OVER!
---- /code ---
+Press **Stop** and then **Run**, and you can now see a key in the Hall. You can even pick it up (by typing `get key`) which adds it to your inventory!
 
 --- /task ---
+

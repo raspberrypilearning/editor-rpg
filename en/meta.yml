@@ -17,15 +17,15 @@ software: python
 version: 3
 last_tested: 2025-01-02
 steps:
-- title: What you will make
-- title: Add a new room
+- title: Step 1
+- title: Step 2
   completion:
   - engaged
-- title: Add items to collect
-- title: Add enemies
-- title: Winning the game
+- title: Step 3
+- title: Step 4
+- title: Step 5
   completion:
   - internal
   - external
-- title: Challenge
+- title: Step 6
   challenge: true
