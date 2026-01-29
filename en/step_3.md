@@ -15,7 +15,7 @@ Each room on the map can be coded as a **dictionary**, and rooms are linked toge
 
 --- task ---
 Add the code below to make a new room, and link it to the Hall.
-<div class="c-project-output">
+
 --- code ---
 ---
 language: python
@@ -37,7 +37,6 @@ rooms = {
     }
 }
 --- /code ---
-</div>
 
 --- /task ---
 
