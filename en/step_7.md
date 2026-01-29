@@ -1,3 +1,9 @@
+<h2 class="c-project-heading--task">STEP TITLE</h2>
+--- task ---
+
+BRIEF SUMMARY OF STEP - one line
+
+--- /task ---
 ## Winning the game
 
 Give your player a mission which needs to be completed to win the game.

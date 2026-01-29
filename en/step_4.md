@@ -1,3 +1,9 @@
+<h2 class="c-project-heading--task">STEP TITLE</h2>
+--- task ---
+
+BRIEF SUMMARY OF STEP - one line
+
+--- /task ---
 ## Add items to collect
 
 Add items in the rooms for the player to collect as they move through the maze.

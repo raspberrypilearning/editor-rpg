@@ -1,28 +1,24 @@
-## Add a new room
-
+<h2 class="c-project-heading--task">Go the wrong way</h2>
 --- task ---
-Open the [starter project](https://editor.raspberrypi.org/en/projects/rpg-starter){:target="_blank"}.
+
+When you type in a direction that you cannot go, you'll see a friendly error message, and a reminder of where you are plus any items in your inventory.
+
 --- /task ---
 
 
-Here is a basic maze that represents a house with two rooms. The rooms are both empty for now. Here’s a map of the game:
+<h2 class="c-project-heading--explainer">Here’s a map of the game:</h2>
 
 ![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them.](images/rpg-map1.png)
 
+The house is a basic maze, and the error message helps you to find your way.
+
 --- task ---
-Press **Run** to start the game. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again.
+
+Press **run** to start the game. Type a direction you can't go, such as `go west` from the Hall.
+
 --- /task ---
 
---- task ---
-
-What happens when you type in a direction that you cannot go? Type `go west` in the Hall.
-
---- collapse ---
----
-title: Answer
----
-You'll see a friendly error message, and a reminder of where you are plus any items in your inventory.
-
+<div class="c-project-code">
 --- code ---
 ---
 language: text
@@ -38,7 +34,10 @@ Inventory : []
 ---------------------------
 >
 --- /code ---
+</div>
 
---- /collapse ---
+--- task ---
+
+Experiment with other directions to. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again
+
 --- /task ---
-

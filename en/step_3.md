@@ -1,4 +1,11 @@
-## Add a new room
+<h2 class="c-project-heading--task">Add a new room</h2>
+--- task ---
+
+Add a Dining Room to your game.
+
+--- /task ---
+
+
 Look at the code and find the `rooms` variable. The map is coded as a **dictionary** of rooms:
 
 --- code ---
