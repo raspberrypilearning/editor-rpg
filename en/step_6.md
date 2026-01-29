@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Add a garden/h2>
+<h2 class="c-project-heading--task">Add a garden</h2>
 --- task ---
 
 Add a garden to the south of the dining room. Remember to link the garden to the dining room.
@@ -44,9 +44,9 @@ rooms = {
 }
 --- /code ---
 
---- /task ---
+--- task ---
 
 Click **run** and navigate to the `'Garden'`.
 
---- task ---
+--- /task ---
 </div>
