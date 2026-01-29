@@ -12,7 +12,7 @@ Here’s a map of the game.
 
 ![A map showing the hall containing a key, witih the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
 
---- task ---
+--- /task ---
 
 
 <div class="c-project-code">
