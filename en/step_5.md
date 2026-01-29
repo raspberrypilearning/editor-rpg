@@ -1,23 +1,23 @@
-<h2 class="c-project-heading--task">STEP TITLE</h2>
+<h2 class="c-project-heading--task">Add enemies</h2>
 --- task ---
-
-BRIEF SUMMARY OF STEP - one line
-
---- /task ---
-## Add enemies
 
 Add enemies to some rooms that the player must avoid.
 
+--- /task ---
+
 --- task ---
 
-Adding an enemy to a room is the same as adding an item. Add a monster to the Kitchen:
+Adding an enemy to a room is the same as adding an item. Add a **monster** to the Kitchen.
 
+--- /task ---
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 29
-line_highlights: 33-34
+line_number_start: 6
+line_highlights: 14-15
 ---
 # A dictionary linking a room to other rooms
 rooms = {
@@ -31,22 +31,18 @@ rooms = {
         'item' : 'monster'
     },
 --- /code ---
-
---- /task ---
+--- task ---
 
 If the player enters a room with a monster in, the game ends. Test out your code by going into the Kitchen, which now contains a monster.
 
---- task ---
-Click **Stop** then click **Run** and type `go south`.
+Click **run** and type `go south`.
 
---- code ---
----
-language: text
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
----------------------------
+--- /task ---
+</div>
+
+<div class="c-project-output">
+<pre>
+
 You are in the Hall
 Inventory : []
 You see a key
@@ -54,6 +50,4 @@ You see a key
 >go south
 
 A monster has got you... GAME OVER!
---- /code ---
-
---- /task ---
+</pre>

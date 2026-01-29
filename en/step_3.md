@@ -14,8 +14,12 @@ Each room on the map can be coded as a **dictionary**, and rooms are linked toge
 --- /task ---
 
 --- task ---
+
 Add the code below to make a new room, and link it to the Hall.
 
+--- /task ---
+
+<div class="c-project-output">
 --- code ---
 ---
 language: python
@@ -38,15 +42,14 @@ rooms = {
 }
 --- /code ---
 
---- /task ---
-
 --- task ---
 
-Click **Stop**, then click **Run** to try out the game with your new Dining Room code. 
+Click **Run** to try out the game with your new Dining Room code. 
 
 Type `go east` from the Hall to move into to the Dining Room, and `go west` to move back to the Hall.
 
 --- /task ---
+</div>
 
 <div class="c-project-callout c-project-callout--debug">
 
