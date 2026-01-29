@@ -1,6 +1,7 @@
 # Helper module for the starter `main.py`.
 
-
+# Start the player in the Hall
+currentRoom = 'Hall'
 
 def showInstructions():
     # Print a main menu and the commands
@@ -39,6 +40,7 @@ def run_game(currentRoom, inventory, rooms):
   """
   showInstructions()
 
+
   while True:
 
     showStatus(currentRoom, inventory, rooms)
@@ -68,3 +70,4 @@ def run_game(currentRoom, inventory, rooms):
       break
 
   return currentRoom, inventory
+

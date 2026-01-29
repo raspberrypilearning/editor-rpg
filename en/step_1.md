@@ -5,7 +5,7 @@ Design and code a game where the player must collect objects and escape from a h
 
 --- /task ---
 
-Try it out. 
+<h2 class="c-project-heading--explainer">Try it out</h2>
 
 --- task ---
 
@@ -13,9 +13,10 @@ Click **run** and type **go** and then a direction (north, east, south or west) 
 
 Type **get** to pick up any items that you see (e.g. **get key**).
 
+--- /task ---
+
 <div class="c-project-output">
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/rpg-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
 
---- /task ---
 

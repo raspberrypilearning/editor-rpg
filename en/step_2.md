@@ -11,8 +11,7 @@ The house is a basic maze, and getting an error message helps you to find your w
 
 ![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them.](images/rpg-map1.png)
 
-
-When you type in the wrong direction, the error message reminds you where you are plus any items in your inventory.
+When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
 
 --- /task ---
 
@@ -21,7 +20,9 @@ When you type in the wrong direction, the error message reminds you where you ar
 
 Press **run** to start the game. Type a direction you can't go, such as `go west` from the Hall.
 
+--- /task ---
 
+<div class="c-project-output">
 <pre>
 go west
 You can't go that way!
@@ -31,8 +32,7 @@ Inventory : []
 ---------------------------
 >
 </pre>
-
---- /task ---
+</div>
 
 --- task ---
 
