@@ -6,13 +6,13 @@ currentRoom = 'Hall'
 def showInstructions():
     # Print a main menu and the commands
     print(
-        """
-          RPG Game
-          ========
-          Commands:
-          go [direction]
-          get [item]
-          """
+    """
+    RPG Game
+    ========
+    Commands:
+    go [direction]
+    get [item]
+    """
     )
 
 
