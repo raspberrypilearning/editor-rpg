@@ -21,7 +21,7 @@ When you type in the wrong direction, the error message reminds you where you ar
 
 Press **run** to start the game. Type a direction you can't go, such as `go west` from the Hall.
 
-<div class="c-project-output">
+
 <pre>
 go west
 You can't go that way!
@@ -30,9 +30,7 @@ You are in the Hall
 Inventory : []
 ---------------------------
 >
---- /code ---
 </pre>
-</div>
 
 --- /task ---
 
