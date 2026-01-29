@@ -1,31 +1,28 @@
 <h2 class="c-project-heading--task">Go the wrong way</h2>
 --- task ---
 
-When you type in a direction that you cannot go, you'll see a friendly error message, and a reminder of where you are plus any items in your inventory.
+The house is a basic maze, and getting an error message helps you to find your way.
 
 --- /task ---
 
+--- task ---
 
 <h2 class="c-project-heading--explainer">Here’s a map of the game:</h2>
 
 ![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them.](images/rpg-map1.png)
 
-The house is a basic maze, and the error message helps you to find your way.
+
+When you type in the wrong direction, the error message reminds you where you are plus any items in your inventory.
+
+--- /task ---
+
 
 --- task ---
 
 Press **run** to start the game. Type a direction you can't go, such as `go west` from the Hall.
 
---- /task ---
-
-<div class="c-project-code">
---- code ---
----
-language: text
-line_numbers: false
-line_number_start: 
-line_highlights: 
----
+<div class="c-project-output">
+<pre>
 go west
 You can't go that way!
 ---------------------------
@@ -34,7 +31,10 @@ Inventory : []
 ---------------------------
 >
 --- /code ---
+</pre>
 </div>
+
+--- /task ---
 
 --- task ---
 

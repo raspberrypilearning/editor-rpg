@@ -7,6 +7,8 @@ Design and code a game where the player must collect objects and escape from a h
 
 Try it out. 
 
+--- task ---
+
 Click **run** and type **go** and then a direction (north, east, south or west) to move around (e.g. **go north**).
 
 Type **get** to pick up any items that you see (e.g. **get key**).
@@ -14,4 +16,6 @@ Type **get** to pick up any items that you see (e.g. **get key**).
 <div class="c-project-output">
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/rpg-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
 </div>
+
+--- /task ---
 
