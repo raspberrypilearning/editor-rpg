@@ -41,6 +41,7 @@ rooms = {
     }
 }
 --- /code ---
+</div>
 
 --- task ---
 
@@ -49,7 +50,7 @@ Click **Run** to try out the game with your new Dining Room code.
 Type `go east` from the Hall to move into to the Dining Room, and `go west` to move back to the Hall.
 
 --- /task ---
-</div>
+
 
 <div class="c-project-callout c-project-callout--debug">
 

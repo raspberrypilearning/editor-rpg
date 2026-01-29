@@ -11,7 +11,7 @@ Edit the `showInstructions()` function to include more information.
 
 --- /task ---
 
-<div class="c-project-output">
+<div class="c-project-code">
 --- code ---
 ---
 language: python

@@ -22,6 +22,8 @@ line_highlights: 96-99
     if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
         print('You escaped the house... YOU WIN!')
         break
+
+        NEEDS SORTING!!!!
 --- /code ---
 
 --- task ---
@@ -31,6 +33,7 @@ Click **run** to test your game to make sure the player can win!
 --- /task ---
 </div>
 
+<div class="c-project-output">
 <pre>
 ---
 language: text
@@ -63,6 +66,7 @@ Inventory : ['key', 'potion']
 >go south
 You escaped the house... YOU WIN!
 </pre>
+</div>
 
 <div class="c-project-callout c-project-callout--debug">
 

@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Add a garden</h2>
 --- task ---
 
-Add a garden to the south of the dining room. Remember to link the garden to the dining room.
+Add a garden to the south of the dining room. 
 
 --- /task ---
 
@@ -14,6 +14,11 @@ Here’s a map of the game.
 
 --- /task ---
 
+--- task ---
+
+Add a garden like in the code below. Remember to link the garden to the dining room.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---
