@@ -19,7 +19,7 @@ Add the code below to make a new room, and link it to the Hall.
 
 --- /task ---
 
-<div class="c-project-output">
+<div class="c-project-code">
 --- code ---
 ---
 language: python
