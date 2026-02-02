@@ -68,6 +68,8 @@ def run_game(currentRoom, inventory, rooms):
     if "item" in rooms[currentRoom] and "monster" in rooms[currentRoom]["item"]:
       print("A monster has got you... GAME OVER!")
       break
+    
+    # add more game play here
 
   return currentRoom, inventory
 

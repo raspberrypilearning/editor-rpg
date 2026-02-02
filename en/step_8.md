@@ -5,9 +5,14 @@ The player wins by getting to the garden with the key and the magic potion.
 
 --- /task ---
 
+The instruction code is in `game.py`, which is stored in the file tab.
+
+![screenshot of the file system](images/edito-game.png)
+
+
 --- task ---
 
-Add this code so that the player wins the game when they get to the garden with the key and the potion. 
+Add this code to `game.py` so that the player wins the game when they get to the garden with the key and the potion. 
 
 --- /task ---
 
@@ -16,14 +21,15 @@ Add this code so that the player wins the game when they get to the garden with 
 ---
 language: python
 line_numbers: true
-line_number_start: 96
-line_highlights: 96-99
+line_number_start: 72
+line_highlights: 73-75
 ---
+    # add more game play here
     if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
         print('You escaped the house... YOU WIN!')
         break
-
-        NEEDS SORTING!!!!
+    
+    return currentRoom, inventory
 --- /code ---
 
 --- task ---

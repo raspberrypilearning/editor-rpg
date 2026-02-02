@@ -7,7 +7,7 @@ Add some instructions to your game, so that the player knows what they have to d
 
 --- task ---
 
-Edit the `showInstructions()` function to include more information.
+Edit `showInstructions()` in the `game.py` file to include more information.
 
 --- /task ---
 
@@ -16,8 +16,8 @@ Edit the `showInstructions()` function to include more information.
 ---
 language: python
 line_numbers: true
-line_number_start: 1
-line_highlights: 8-9
+line_number_start: 
+line_highlights: 12-15
 ---
 def showInstructions():
     # Print a main menu and the commands
