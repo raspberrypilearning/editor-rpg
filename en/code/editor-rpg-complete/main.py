@@ -1,4 +1,19 @@
-def showStatus():
+def showInstructions():
+    # Print a main menu and the commands
+    print(
+        """
+        🏠 The Mysterious House
+        ========
+        Get to the Garden with a key and a potion
+        👾 Avoid the monsters!
+        
+        How to play:
+        go [direction]
+        get [item]
+        """
+)
+        
+    def showStatus():
     # Print the player's current status
     print("---------------------------")
     print("You are in the " + currentRoom)
