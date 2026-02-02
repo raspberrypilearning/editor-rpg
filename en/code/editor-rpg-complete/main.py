@@ -2,20 +2,20 @@ def showInstructions():
     # Print a main menu and the commands
     print(
         """
-        🏠 The Mysterious House
-        ========
-        How to win:
-        Find the Garden 🌳
-        Pick up a key 🔑 and a potion ✨
-        Avoid the monsters
+🏠 The Mysterious House
+========
+How to win:
+Find the Garden 🌳
+Pick up a key 🔑 and a potion ✨
+Avoid the monsters
         
-        How to play:
-        go [direction]
-        get [item]
-        """
+How to play:
+go [direction]
+get [item]
+"""
 )
         
-    def showStatus():
+def showStatus():
     # Print the player's current status
     print("---------------------------")
     print("You are in the " + currentRoom)
@@ -35,7 +35,7 @@ rooms = {
     "Hall": {
         "south": "Kitchen",
         "east": "Dining Room",
-        "item": "key 🔑"
+        "item": "key"
     }, 
     "Kitchen": {
         "north": "Hall",
@@ -43,8 +43,8 @@ rooms = {
     },
     "Dining Room": {
         "west": "Hall",
-        "south": "Garden 🌳",
-        "item": "potion ✨"
+        "south": "Garden",
+        "item": "potion"
     },
     "Garden": {
         "north": "Dining Room"
