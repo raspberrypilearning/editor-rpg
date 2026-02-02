@@ -1,20 +1,18 @@
 def showInstructions():
     # Print a main menu and the commands
-    print(
-        """
-        🏠 The Mysterious House
-        ========
-        How to win:
-        Hind the Garden 🌳
-        Pick up a key 🔑 and a potion ✨
-        Avoid the monsters
-        
-        How to play:
-        go [direction]
-        get [item]
-        """
-        )
-        
+    print("""
+    RPG Game
+    ========
+
+    Get to the Garden with a key and a potion
+    Avoid the monsters!
+          
+    Commands:
+    go [direction]
+    get [item]
+    """)
+
+
 def showStatus():
     # Print the player's current status
     print("---------------------------")
@@ -34,22 +32,23 @@ inventory = []
 rooms = {
     "Hall": {
         "south": "Kitchen",
-        "east": "Dining Room",
-        "item": "key"
+        'east' : 'Dining Room',
+        'item' : 'key'
     }, 
     "Kitchen": {
         "north": "Hall",
-        "item": "monster"
+        'item' : 'monster'
     },
-    "Dining Room": {
-        "west": "Hall",
-        "south": "Garden",
-        "item": "potion"
+    'Dining Room' : {
+        'west' : 'Hall',
+        'south' : 'Garden',
+        'item' : 'potion'
     },
-    "Garden": {
-        "north": "Dining Room"
+    'Garden' : {
+        'north' : 'Dining Room'
     }
 }
+
 # Start the player in the Hall
 currentRoom = "Hall"
 

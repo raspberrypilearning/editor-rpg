@@ -1,4 +1,4 @@
-from helper import *
+from game import *
 
 # An inventory, which is initially empty
 inventory = []
