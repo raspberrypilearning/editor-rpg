@@ -16,7 +16,7 @@ The player instructions are also in the `game.py` file. Find the  `showInstructi
 ---
 language: python
 line_numbers: true
-line_number_start: 
+line_number_start: 6
 line_highlights: 12-15
 ---
 def showInstructions():
@@ -39,6 +39,6 @@ def showInstructions():
 
 --- task ---
 
-**Test** your game and you should see your new instructions.
+Click **Stop** and then **Run** to test your game and you should see your new instructions.
 
 --- /task ---

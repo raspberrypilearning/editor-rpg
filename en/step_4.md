@@ -29,7 +29,7 @@ rooms = {
 --- /code ---
 --- task ---
 
-Press **Stop** and then **Run**, and you can now see a key in the Hall. You can pick it up by typing `get key`, which adds it to your inventory.
+Click **Stop** and then **Run**, and you can now see a key in the Hall. You can pick it up by typing `get key`, which adds it to your inventory.
 
 --- /task ---
 </div>

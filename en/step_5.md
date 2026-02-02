@@ -35,7 +35,7 @@ rooms = {
 
 If the player enters a room with a monster in, the game ends. 
 
-Click **run** and type `go south`. Test out your code by going into the Kitchen, which now contains a monster.
+Click **Stop** and then **Run** and type `go south`. Test out your code by going into the Kitchen, which now contains a monster.
 
 --- /task ---
 </div>
@@ -46,8 +46,10 @@ Click **run** and type `go south`. Test out your code by going into the Kitchen,
 You are in the Hall
 Inventory : []
 You see a key
+
 ---------------------------
->go south
+> go south
 
 A monster has got you... GAME OVER!
 </pre>
+</div>

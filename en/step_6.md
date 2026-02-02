@@ -16,7 +16,7 @@ Here’s the final map of the game.
 
 --- task ---
 
-Add a garden with the code below. Remember to link the garden to the dining room.
+Add a garden and potion with the code below. Remember to link the garden to the dining room.
 
 --- /task ---
 
@@ -25,8 +25,8 @@ Add a garden with the code below. Remember to link the garden to the dining room
 ---
 language: python
 line_numbers: true
-line_number_start: 29
-line_highlights: 41-42, 43-46
+line_number_start: 6
+line_highlights: 24-29
 ---
 # A dictionary linking a room to other rooms
 rooms = {
@@ -42,6 +42,7 @@ rooms = {
     'Dining Room' : {
         'west' : 'Hall',
         'south' : 'Garden'
+        'item' : 'potion'
     },
     'Garden' : {
         'north' : 'Dining Room'
@@ -51,7 +52,7 @@ rooms = {
 
 --- task ---
 
-Click **run** and navigate to the `'Garden'`.
+Click **Stop** and then **Run** and navigate to the `'Garden'`.
 
 --- /task ---
 </div>

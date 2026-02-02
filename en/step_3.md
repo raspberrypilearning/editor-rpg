@@ -25,7 +25,7 @@ Add the code below to make a new room, and link it to the Hall.
 language: python
 line_numbers: true
 line_number_start: 6
-line_highlights: 9-10, 15-16
+line_highlights: 9-10, 14-17
 ---
 # A dictionary linking a room to other rooms
 rooms = {
@@ -45,7 +45,7 @@ rooms = {
 
 --- task ---
 
-Click **Run** to try out the game with your new Dining Room code. 
+Click **Stop** and then **Run** to try out the game with your new Dining Room code. 
 
 Type `go east` from the Hall to move into to the Dining Room, and `go west` to move back to the Hall.
 

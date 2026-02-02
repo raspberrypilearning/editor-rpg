@@ -7,7 +7,7 @@ Make it so player wins by getting to the garden with the key and the magic potio
 
 More game play is in `game.py`, which you can see by clicking on the file tab.
 
-![screenshot of the file system](images/edito-game.png)
+![screenshot of the file system](images/edit-game.png)
 
 --- task ---
 
@@ -20,8 +20,8 @@ Add the code below to `game.py` so that the player wins when they get to the **g
 ---
 language: python
 line_numbers: true
-line_number_start: 72
-line_highlights: 73-75
+line_number_start: 17
+line_highlights: 18-20
 ---
     # add more game play here
     if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
@@ -33,19 +33,14 @@ line_highlights: 73-75
 
 --- task ---
 
-Click **run** to test your game to make sure the player can win!
+Click **Stop** and then **Run** to test your game to make sure the player can win!
 
 --- /task ---
 </div>
 
 <div class="c-project-output">
 <pre>
----
-language: text
-line_numbers: false
-line_number_start: 
----
----------------------------
+--------------------
 You are in the Hall
 Inventory : []
 You see a key
