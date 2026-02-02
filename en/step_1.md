@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">What you will make</h2>
 --- task ---
 
-Design and code a game where the player must collect objects and escape from a house, making sure to avoid all the monsters!
+Design and code a game where the player must collect objects, making sure to avoid the monster!
 
 --- /task ---
 

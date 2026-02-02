@@ -7,7 +7,7 @@ Add some instructions to your game, so that the player knows what they have to d
 
 --- task ---
 
-Edit `showInstructions()` in the `game.py` file to include more information.
+The player instructions are also in the `game.py` file. Find the  `showInstructions()` and edit it to include more information about how to play.
 
 --- /task ---
 

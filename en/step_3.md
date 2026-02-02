@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Add a new room</h2>
 --- task ---
 
-Add a Dining Room east of the hall.
+Add rooms. Use code to put a Dining Room east of the hall.
 
 --- /task ---
 

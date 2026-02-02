@@ -8,15 +8,15 @@ Add a garden to the south of the dining room.
 
 --- task ---
 
-Here’s a map of the game.
+Here’s the final map of the game.
 
-![A map showing the hall containing a key, witih the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
+![A map showing the hall containing a key, with the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
 
 --- /task ---
 
 --- task ---
 
-Add a garden like in the code below. Remember to link the garden to the dining room.
+Add a garden with the code below. Remember to link the garden to the dining room.
 
 --- /task ---
 

@@ -1,18 +1,17 @@
 <h2 class="c-project-heading--task">Winning the game</h2>
 --- task ---
 
-The player wins by getting to the garden with the key and the magic potion.
+Make it so player wins by getting to the garden with the key and the magic potion.
 
 --- /task ---
 
-The instruction code is in `game.py`, which is stored in the file tab.
+More game play is in `game.py`, which you can see by clicking on the file tab.
 
 ![screenshot of the file system](images/edito-game.png)
 
-
 --- task ---
 
-Add this code to `game.py` so that the player wins the game when they get to the garden with the key and the potion. 
+Add the code below to `game.py` so that the player wins when they get to the **garden** with the **key** and the **potion**. 
 
 --- /task ---
 

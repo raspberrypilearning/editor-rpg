@@ -1,13 +1,13 @@
 <h2 class="c-project-heading--task">Add enemies</h2>
 --- task ---
 
-Add enemies to some rooms that the player must avoid.
+Add a monster that the player must avoid.
 
 --- /task ---
 
 --- task ---
 
-Adding an enemy to a room is the same as adding an item. Add a **monster** to the Kitchen.
+Adding a character into a room is the same as adding an item. Add a **monster** to the Kitchen.
 
 --- /task ---
 
@@ -33,9 +33,9 @@ rooms = {
 --- /code ---
 --- task ---
 
-If the player enters a room with a monster in, the game ends. Test out your code by going into the Kitchen, which now contains a monster.
+If the player enters a room with a monster in, the game ends. 
 
-Click **run** and type `go south`.
+Click **run** and type `go south`. Test out your code by going into the Kitchen, which now contains a monster.
 
 --- /task ---
 </div>

@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Add a potion</h2>
 --- task ---
 
-Add a potion to the dining room using the code below.
+Add a potion `item` to the dining room using the code below.
 
 --- /task ---
 
