@@ -1,17 +1,13 @@
-<h2 class="c-project-heading--task">Winning the game</h2>
+<h2 class="c-project-heading--task">Add instructions</h2>
 --- task ---
 
-Make it so player wins by getting to the garden with the key and the magic potion.
+Add some instructions to your game, so that the player knows what they have to do.
 
 --- /task ---
 
-More game play is in `game.py`, which you can see by clicking on the file tab.
-
-![screenshot of the file system](images/edit-game.png)
-
 --- task ---
 
-Add the code below to `game.py` so that the player wins when they get to the **garden** with the **key** and the **potion**. 
+The player instructions are also in the `game.py` file. Find the  `showInstructions()` and edit it to include more information about how to play.
 
 --- /task ---
 
@@ -20,58 +16,29 @@ Add the code below to `game.py` so that the player wins when they get to the **g
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 18-20
+line_number_start: 6
+line_highlights: 12-15
 ---
-    # add more game play here
-    if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
-        print('You escaped the house... YOU WIN!')
-        break
-    
-    return currentRoom, inventory
+def showInstructions():
+    # Print a main menu and the commands
+    print(
+        """
+          RPG Game
+          ========
+
+          Get to the Garden with a key and a potion
+          Avoid the monsters!
+
+          Commands:
+          go [direction]
+          get [item]
+          """
+    )
 --- /code ---
+</div>
 
 --- task ---
 
-Click **Stop** and then **Run** to test your game to make sure the player can win!
+Click **Stop** and then **Run** to test your game and you should see your new instructions.
 
 --- /task ---
-</div>
-
-<div class="c-project-output">
-<pre>
---------------------
-You are in the Hall
-Inventory : []
-You see a key
----------------------------
->get key
-You picked up the key
----------------------------
-You are in the Hall
-Inventory : ['key']
----------------------------
->go east
----------------------------
-You are in the Dining Room
-Inventory : ['key']
-You see a potion
----------------------------
->get potion
-You picked up the potion
----------------------------
-You are in the Dining Room
-Inventory : ['key', 'potion']
----------------------------
->go south
-You escaped the house... YOU WIN!
-</pre>
-</div>
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-Make sure the code is indented, in line with the code above it. 
-
-</div>

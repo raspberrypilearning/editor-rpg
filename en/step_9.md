@@ -1,44 +1,21 @@
-<h2 class="c-project-heading--task">Add instructions</h2>
+<h2 class="c-project-heading--task">Challenge</h2>
 --- task ---
 
-Add some instructions to your game, so that the player knows what they have to do.
+Use what you’ve learnt to create your own game. Here are some ideas:
 
 --- /task ---
 
 --- task ---
 
-The player instructions are also in the `game.py` file. Find the  `showInstructions()` and edit it to include more information about how to play.
++ Add more rooms to your game. Remember to add a door to/from one of the other rooms!
+
++ Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
+
++ Add more monsters to your game, to make it harder to escape the house!
+
++ Modify the condition for winning - where does the player have to get to, and with which objects in their inventory?
+
++ Add stairs to your map and have more than one level of rooms, by typing `go up` and `go down`.
 
 --- /task ---
 
-<div class="c-project-code">
---- code ---
----
-language: python
-line_numbers: true
-line_number_start: 6
-line_highlights: 12-15
----
-def showInstructions():
-    # Print a main menu and the commands
-    print(
-        """
-          RPG Game
-          ========
-
-          Get to the Garden with a key and a potion
-          Avoid the monsters!
-
-          Commands:
-          go [direction]
-          get [item]
-          """
-    )
---- /code ---
-</div>
-
---- task ---
-
-Click **Stop** and then **Run** to test your game and you should see your new instructions.
-
---- /task ---
