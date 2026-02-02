@@ -4,8 +4,10 @@ def showInstructions():
         """
         🏠 The Mysterious House
         ========
-        Get to the Garden with a key and a potion
-        👾 Avoid the monsters!
+        How to win:
+        Find the Garden 🌳
+        Pick up a key 🔑 and a potion ✨
+        Avoid the monsters
         
         How to play:
         go [direction]
@@ -32,23 +34,22 @@ inventory = []
 rooms = {
     "Hall": {
         "south": "Kitchen",
-        'east' : 'Dining Room',
-        'item' : 'key'
+        "east": "Dining Room",
+        "item": "key 🔑"
     }, 
     "Kitchen": {
         "north": "Hall",
-        'item' : 'monster'
+        "item": "monster 👾"
     },
-    'Dining Room' : {
-        'west' : 'Hall',
-        'south' : 'Garden',
-        'item' : 'potion'
+    "Dining Room": {
+        "west": "Hall",
+        "south": "Garden 🌳",
+        "item": "potion ✨"
     },
-    'Garden' : {
-        'north' : 'Dining Room'
+    "Garden": {
+        "north": "Dining Room"
     }
 }
-
 # Start the player in the Hall
 currentRoom = "Hall"
 
