@@ -10,5 +10,5 @@ rooms = {
     }
 }
 
-# Run the game loop from the helper so learners keep state in this file
+# Keep this to run the game loop from game.py 
 currentRoom, inventory = run_game(currentRoom, inventory, rooms)

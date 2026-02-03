@@ -87,4 +87,4 @@ while True:
         print('You escaped the house... YOU WIN!')
         break
         
-    return currentRoom, inventory
+  return currentRoom, inventory
