@@ -1,7 +1,7 @@
 from game import *
 
 # A dictionary linking a room to other rooms
-rooms = {
+rooms = { 
     'Hall': { 
         'south': 'Kitchen',
         'east' : 'Dining Room',
