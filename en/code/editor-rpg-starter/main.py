@@ -1,8 +1,5 @@
 from game import *
 
-# An inventory, which is initially empty
-inventory = []
-
 # A dictionary linking a room to other rooms
 rooms = {
     'Hall': {

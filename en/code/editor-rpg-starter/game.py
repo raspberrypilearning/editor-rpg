@@ -3,18 +3,19 @@
 # Start the player in the Hall
 currentRoom = 'Hall'
 
+# An inventory, which is initially empty
+inventory = []
+
+
 def showInstructions():
     # Print a main menu and the commands
-    print(
-    """
-    RPG Game
-    ========
-    Commands:
-    go [direction]
-    get [item]
-    """
-    )
-
+    print("""
+Monster Game
+========
+Commands:
+go [direction]
+get [item]
+""")
 
 def showStatus(currentRoom, inventory, rooms):
   """Print the player's current status using passed-in state.
