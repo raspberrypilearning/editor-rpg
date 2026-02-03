@@ -61,7 +61,7 @@ def run_game(currentRoom, inventory, rooms):
                 # Set the current room to the new room
                 currentRoom = rooms[currentRoom][move[1]]
             else:
-                print('You can't go that way!')
+                print('You cannot go that way!')
 
         # If they type 'get' first
         if move[0] == 'get':
