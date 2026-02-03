@@ -22,7 +22,7 @@ line_highlights: 12-15
 def showInstructions():
     # Print a main menu and the commands
     print(
-        """
+        '''
           RPG Game
           ========
 
@@ -32,7 +32,7 @@ def showInstructions():
           Commands:
           go [direction]
           get [item]
-          """
+          '''
     )
 --- /code ---
 </div>
