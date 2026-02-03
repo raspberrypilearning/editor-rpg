@@ -48,7 +48,7 @@ def run_game(currentRoom, inventory, rooms):
 
     move = ''
     while move == '':
-      move = input(>')
+      move = input('>')
 
     move = move.lower().split()
 
@@ -56,7 +56,7 @@ def run_game(currentRoom, inventory, rooms):
       if move[1] in rooms[currentRoom]:
         currentRoom = rooms[currentRoom][move[1]]
       else:
-        print('You can't go that way!'')
+        print('You cannot go that way!')
 
     elif move[0] == 'get':
       if 'item' in rooms[currentRoom] and move[1] in rooms[currentRoom]['item']:
