@@ -9,11 +9,11 @@ Design and code a game where the player must collect objects, making sure to avo
 
 --- task ---
 
-Here’s a map of the game.
+Here’s a map for the finished game.
 
 ![A map showing the hall containing a key, witih the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
 
-Click **run** to try it out.
+Click **run** in the editor below vto try it out.
 
 + Type **go** and then a direction (north, east, south or west) to move around (e.g. **go north**).
 + Type **get** to pick up any items that you see (e.g. **get key**).

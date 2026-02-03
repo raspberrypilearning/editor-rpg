@@ -23,9 +23,10 @@ Add the code below to make a new room, and link it to the Hall.
 --- code ---
 ---
 language: python
+filename: main.py
 line_numbers: true
-line_number_start: 6
-line_highlights: 9-10, 14-17
+line_number_start: 1
+line_highlights: 6-7, 11-13
 ---
 # A dictionary linking a room to other rooms
 rooms = {

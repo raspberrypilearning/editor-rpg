@@ -19,15 +19,17 @@ Add the code below to `game.py` so that the player wins when they get to the **g
 --- code ---
 ---
 language: python
+filename: game.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 18-20
+line_number_start: 74
+line_highlights: 75-77
 ---
     # add more game play here
     if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
         print('You escaped the house... YOU WIN!')
         break
-    
+
+
     return currentRoom, inventory
 --- /code ---
 
@@ -40,31 +42,33 @@ Click **Stop** and then **Run** to test your game to make sure the player can wi
 
 <div class="c-project-output">
 <pre>
---------------------
+Monster Game
+========
+Commands:
+go [direction]
+get [item]
+
+---------------------------
 You are in the Hall
 Inventory : []
 You see a key
 ---------------------------
->get key
+>
+go west
+You cannot go that way!
+---------------------------
+You are in the Hall
+Inventory : []
+You see a key
+---------------------------
+>
+get key
 You picked up the key
 ---------------------------
 You are in the Hall
 Inventory : ['key']
 ---------------------------
->go east
----------------------------
-You are in the Dining Room
-Inventory : ['key']
-You see a potion
----------------------------
->get potion
-You picked up the potion
----------------------------
-You are in the Dining Room
-Inventory : ['key', 'potion']
----------------------------
->go south
-You escaped the house... YOU WIN!
+>
 </pre>
 </div>
 

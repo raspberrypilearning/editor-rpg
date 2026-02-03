@@ -10,12 +10,12 @@ def showInstructions():
 Monster Game
 ========
 
-Get to the Garden with a key and a potion
-Avoid the monsters!
-          
-Commands:
+Get to the garden with a key 🗝️ and a potion 🧪  
+Avoid the monster❗
+
+Commands 
 go [direction]
-get [item]
+get [item] 
 ''')
 
 
@@ -30,13 +30,8 @@ def showStatus(currentRoom, inventory, rooms):
         print('You see a ' + rooms[currentRoom]['item'])
     print('---------------------------')
     
-    
+# Run the main game loop using state kept in `main.py`.
 def run_game(currentRoom, inventory, rooms):
-    # Run the main game loop using state kept in `main.py`.
-    # This keeps `rooms`, `inventory` and `currentRoom` visible and editable
-    # in `main.py` for learners, while placing the loop logic here.
-    # Returns the final `(currentRoom, inventory)` when the game ends.
-
     showInstructions()
 
     # Loop forever
@@ -84,5 +79,6 @@ def run_game(currentRoom, inventory, rooms):
         if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
             print('You escaped the house... YOU WIN!')
             break
+
 
     return currentRoom, inventory

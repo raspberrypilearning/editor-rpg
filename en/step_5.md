@@ -15,9 +15,10 @@ Adding a character into a room is the same as adding an item. Add a **monster** 
 --- code ---
 ---
 language: python
+filename: main.py
 line_numbers: true
-line_number_start: 6
-line_highlights: 14-15
+line_number_start: 3
+line_highlights: 11-12
 ---
 # A dictionary linking a room to other rooms
 rooms = {

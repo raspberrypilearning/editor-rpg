@@ -16,7 +16,7 @@ Here’s the final map of the game.
 
 --- task ---
 
-Add a garden and potion with the code below. Remember to link the garden to the dining room.
+Add a **potion** in the Dining room, and a **garden**  to the south. 
 
 --- /task ---
 
@@ -24,9 +24,10 @@ Add a garden and potion with the code below. Remember to link the garden to the 
 --- code ---
 ---
 language: python
+filename: main.py
 line_numbers: true
-line_number_start: 6
-line_highlights: 24-29
+line_number_start: 3
+line_highlights: 16-20
 ---
 # A dictionary linking a room to other rooms
 rooms = {
@@ -37,11 +38,11 @@ rooms = {
     },
     'Kitchen' : {
         'north' : 'Hall',
-        'item' : 'monster'
+        'item' : 'monster',
     },
     'Dining Room' : {
         'west' : 'Hall',
-        'south' : 'Garden'
+        'south' : 'Garden',
         'item' : 'potion'
     },
     'Garden' : {
@@ -55,4 +56,12 @@ rooms = {
 Click **Stop** and then **Run** and navigate to the `'Garden'`.
 
 --- /task ---
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Going into the garden does not make you win the game yet. The winning gameplay still needs to be added.
+
 </div>

@@ -15,9 +15,10 @@ Add an `'item'` in the room's dictionary. The code below adds a **key** in the H
 --- code ---
 ---
 language: python
+filename: main.py
 line_numbers: true
-line_number_start: 6
-line_highlights: 10-11
+line_number_start: 3
+line_highlights: 7-8
 ---
 # A dictionary linking a room to other rooms
 rooms = {

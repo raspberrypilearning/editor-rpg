@@ -15,25 +15,24 @@ The player instructions are also in the `game.py` file. Find the  `showInstructi
 --- code ---
 ---
 language: python
+filename: game.py
 line_numbers: true
-line_number_start: 6
+line_number_start: 7
 line_highlights: 12-15
 ---
 def showInstructions():
     # Print a main menu and the commands
-    print(
-        '''
-          RPG Game
-          ========
+    print('''
+Monster Game
+========
 
-          Get to the Garden with a key and a potion
-          Avoid the monsters!
+Get to the garden with a key 🗝️ and a potion 🧪  
+Avoid the monsters❗
 
-          Commands:
-          go [direction]
-          get [item]
-          '''
-    )
+Commands 
+go [direction]
+get [item] 
+''')
 --- /code ---
 </div>
 
