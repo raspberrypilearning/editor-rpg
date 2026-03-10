@@ -5,7 +5,7 @@ rooms = {
     'Hall': {
         'south': 'Kitchen'
     }, 
-    'Kitchen': {
+    'Kitchen': { 
         'north': 'Hall'
     }
 }
