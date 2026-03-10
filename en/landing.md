@@ -2,11 +2,7 @@
 
 Design and code a game where the player must collect objects, making sure to avoid the monster!
 
-## Try it out {: .c-project-heading--explainer}
-
-Here’s a map for the finished game.
-
-![A map showing the hall containing a key, witih the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
+## Try it out
 
 Click **run** in the editor below to try it out.
 
