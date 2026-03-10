@@ -38,7 +38,8 @@ Inventory : []
 
 
 ​​### Step 2
-Title for each instruction if more than one instrution on a page
+
+Title for each instruction if more than one instruction on a page
 
 
 Adding code inline using `print()`{:.language-python}. 
