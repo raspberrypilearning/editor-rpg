@@ -14,6 +14,10 @@ Type a direction you can't go, such as `go west` from the Hall.
 
 When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
 
+​​### Step 2
+
+Test of step 2
+
 
 <div class="c-project-output">
 ```
@@ -37,7 +41,7 @@ Inventory : []
 ## Main title
 
 
-​​### Step 2
+
 
 Title for each instruction if more than one instruction on a page
 
