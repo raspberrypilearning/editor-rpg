@@ -27,5 +27,7 @@ Inventory : []
 ```
 </div>
 
-
-Experiment with other directions. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again
+> ### Tip
+>
+> Experiment with other directions. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again
+{: .c-project-callout .c-project-callout--tip}
