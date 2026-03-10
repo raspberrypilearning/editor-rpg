@@ -1,27 +1,32 @@
-<h2 class="c-project-heading--task">What you will make</h2>
---- task ---
+<h2 class="c-project-heading--task">Go the wrong way</h2>
 
-Design and code a game where the player must collect objects, making sure to avoid the monster!
+The game is set in a house, type commands to move around the rooms.
 
---- /task ---
+<h2 class="c-project-heading--explainer">Here’s what the house looks like to start with:</h2>
 
-<h2 class="c-project-heading--explainer">Try it out</h2>
+![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them.](images/rpg-map1.png)
 
---- task ---
+### Run the code
 
-Here’s a map for the finished game.
+### Step 1
 
-![A map showing the hall containing a key, witih the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
+Type a direction you can't go, such as `go west` from the Hall.
 
-Click **run** in the editor below vto try it out.
+When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
 
-+ Type **go** and then a direction (north, east, south or west) to move around (e.g. **go north**).
-+ Type **get** to pick up any items that you see (e.g. **get key**).
-
---- /task ---
 
 <div class="c-project-output">
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-rpg-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<pre>
+go west
+You can't go that way!
+---------------------------
+You are in the Hall
+Inventory : []
+---------------------------
+>
+</pre>
 </div>
 
 
+
+Experiment with other directions. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again

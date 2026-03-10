@@ -1,13 +1,22 @@
-<h2 class="c-project-heading--task">Add enemies</h2>
+<h2 class="c-project-heading--task">Add a garden</h2>
 --- task ---
 
-Add a monster that the player must avoid.
+Add a garden to the south of the dining room. 
+
+--- /task ---
+
+
+--- task ---
+
+Here’s the final map of the game.
+
+![A map showing the hall containing a key, with the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
 
 --- /task ---
 
 --- task ---
 
-Adding a character into a room is the same as adding an item. Add a **monster** to the Kitchen.
+Add a **potion** in the Dining room, and a **garden**  to the south. 
 
 --- /task ---
 
@@ -18,7 +27,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 3
-line_highlights: 11-12
+line_highlights: 16-20
 ---
 # A dictionary linking a room to other rooms
 rooms = {
@@ -29,28 +38,30 @@ rooms = {
     },
     'Kitchen' : {
         'north' : 'Hall',
-        'item' : 'monster'
+        'item' : 'monster',
     },
+    'Dining Room' : {
+        'west' : 'Hall',
+        'south' : 'Garden',
+        'item' : 'potion'
+    },
+    'Garden' : {
+        'north' : 'Dining Room'
+    }
+}
 --- /code ---
+
 --- task ---
 
-If the player enters a room with a monster in, the game ends. 
-
-Click **Stop** and then **Run** and type `go south`. Test out your code by going into the Kitchen, which now contains a monster.
+Click **Stop** and then **Run** and navigate to the `'Garden'`.
 
 --- /task ---
 </div>
 
-<div class="c-project-output">
-<pre>
+<div class="c-project-callout c-project-callout--tip">
 
-You are in the Hall
-Inventory : []
-You see a key
+### Tip
 
----------------------------
-> go south
+Going into the garden does not make you win the game yet. The winning gameplay still needs to be added.
 
-A monster has got you... GAME OVER!
-</pre>
 </div>

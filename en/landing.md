@@ -1,0 +1,19 @@
+## What you will make
+
+Design and code a game where the player must collect objects, making sure to avoid the monster!
+
+## Try it out {: .c-project-heading--explainer}
+
+Here’s a map for the finished game.
+
+![A map showing the hall containing a key, witih the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
+
+Click **run** in the editor below to try it out.
+
++ Type **go** and then a direction (north, east, south or west) to move around (e.g. **go north**).
++ Type **get** to pick up any items that you see (e.g. **get key**).
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-rpg-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+
+

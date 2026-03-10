@@ -1,40 +1,65 @@
-<h2 class="c-project-heading--task">Go the wrong way</h2>
+<h2 class="c-project-heading--task">Add a new room</h2>
 --- task ---
 
-The game is set in a house, type commands to move around the rooms.
+Add rooms. Use code to put a Dining Room east of the hall.
 
 --- /task ---
 
 --- task ---
 
-<h2 class="c-project-heading--explainer">Here’s what the house looks like to start with:</h2>
+![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them. A dining room has been added to the right of the hall.](images/rpg-dining.png)
 
-![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them.](images/rpg-map1.png)
+Each room on the map can be coded as a **dictionary**, and rooms are linked together using directions.  
 
 --- /task ---
 
 --- task ---
 
-Press **run** to start the game. Type a direction you can't go, such as `go west` from the Hall.
-
-When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
+Add the code below to make a new room, and link it to the Hall.
 
 --- /task ---
 
-<div class="c-project-output">
-<pre>
-go west
-You can't go that way!
----------------------------
-You are in the Hall
-Inventory : []
----------------------------
->
-</pre>
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 6-7, 11-13
+---
+# A dictionary linking a room to other rooms
+rooms = {
+    'Hall' : {
+        'south' : 'Kitchen',
+        'east' : 'Dining Room'
+    },
+    'Kitchen' : {
+        'north' : 'Hall'
+    },
+    'Dining Room' : {
+        'west' : 'Hall'
+    }
+}
+--- /code ---
 </div>
 
 --- task ---
 
-Experiment with other directions to. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again
+Click **Stop** and then **Run** to try out the game with your new Dining Room code. 
+
+Type `go east` from the Hall to move into to the Dining Room, and `go west` to move back to the Hall.
 
 --- /task ---
+
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
++ Don't forget to add a comma after 'kitchen' when you add a new direction.
++ Make sure you have "closed" the dictionary using curly brackets.
+
+</div>
+
+
