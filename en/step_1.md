@@ -6,7 +6,7 @@ The game is set in a house, type commands to move around the rooms.
 
 ![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them.](images/rpg-map1.png)
 
-### Run the code
+### Now run your code
 
 ### Step 1
 
