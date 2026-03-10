@@ -15,7 +15,7 @@ Type a direction you can't go, such as `go west` from the Hall.
 When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
 
 
-### You should see {: .c-project-output}
+### You should see
 go west
 You can't go that way!
 ---------------------------
@@ -23,7 +23,7 @@ You are in the Hall
 Inventory : []
 ---------------------------
 >
-
+{: .c-project-output}
 
 
 
