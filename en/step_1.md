@@ -31,3 +31,64 @@ Inventory : []
 >
 > Experiment with other directions. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again
 {: .c-project-callout .c-project-callout--tip}
+
+
+
+
+
+
+~~~~
+
+## Main title
+
+
+​​### Step 1
+Title for each instruction if more than one instrution on a page
+
+
+Adding code inline using `print()`{:.language-python}. 
+
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 10
+line_highlights: 11
+---
+
+Put code here
+
+--- /code ---
+
+
+### Now run your code
+This is what you should see when you run your code.
+
+
+<div class="c-project-output">
+```
+WHAT THEY SHOULD SEE IF OUTPUT IS TEXT - OTHERWISE USE IMAGE
+```
+</div>
+
+
+> ### Tip
+> 
+> TIPS HERE
+{: .c-project-callout .c-project-callout--tip}
+
+
+> ### Debugging
+> 
+> DEBUG HERE
+{: .c-project-callout .c-project-callout--debug}
+
+
+> ### Tip / OR / Debugging
+> 
+> BULLET POINT DEBUG or TIP POINTS HERE
+>
+> BULLET POINT DEBUG or TIP POINTS HERE
+{: .c-project-callout .c-project-callout--tip}

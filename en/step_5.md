@@ -50,13 +50,12 @@ rooms = {
     }
 }
 --- /code ---
-
+</div>
 --- task ---
 
 Click **Stop** and then **Run** and navigate to the `'Garden'`.
 
 --- /task ---
-</div>
 
 <div class="c-project-callout c-project-callout--tip">
 

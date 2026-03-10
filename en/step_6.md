@@ -32,13 +32,13 @@ line_highlights: 75-77
 
     return currentRoom, inventory
 --- /code ---
-
+</div>
 --- task ---
 
 Click **Stop** and then **Run** to test your game to make sure the player can win!
 
 --- /task ---
-</div>
+
 
 <div class="c-project-output">
 <pre>

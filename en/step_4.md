@@ -32,6 +32,7 @@ rooms = {
         'item' : 'monster'
     },
 --- /code ---
+</div>
 --- task ---
 
 If the player enters a room with a monster in, the game ends. 
@@ -39,7 +40,7 @@ If the player enters a room with a monster in, the game ends.
 Click **Stop** and then **Run** and type `go south`. Test out your code by going into the Kitchen, which now contains a monster.
 
 --- /task ---
-</div>
+
 
 <div class="c-project-output">
 <pre>

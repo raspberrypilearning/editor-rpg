@@ -28,12 +28,13 @@ rooms = {
         'item' : 'key'
     },
 --- /code ---
+</div>
 --- task ---
 
 Click **Stop** and then **Run**, and you can now see a key in the Hall. You can pick it up by typing `get key`, which adds it to your inventory.
 
 --- /task ---
-</div>
+
 
 <div class="c-project-callout c-project-callout--debug">
 
