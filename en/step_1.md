@@ -34,19 +34,16 @@ Inventory : []
 
 
 
-
-
-
-~~~~
-
 ## Main title
 
 
-​​### Step 1
+​​### Step 2
 Title for each instruction if more than one instrution on a page
 
 
 Adding code inline using `print()`{:.language-python}. 
+
+Adding code inline using `print()`. 
 
 
 --- code ---
@@ -61,6 +58,22 @@ line_highlights: 11
 Put code here
 
 --- /code ---
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 10
+line_highlights: 11
+---
+
+Put code here
+
+--- /code ---
+
+</div>
 
 
 ### Now run your code
@@ -86,9 +99,6 @@ WHAT THEY SHOULD SEE IF OUTPUT IS TEXT - OTHERWISE USE IMAGE
 {: .c-project-callout .c-project-callout--debug}
 
 
-> ### Tip / OR / Debugging
-> 
-> BULLET POINT DEBUG or TIP POINTS HERE
->
-> BULLET POINT DEBUG or TIP POINTS HERE
-{: .c-project-callout .c-project-callout--tip}
+<div class="c-project-output">
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-turtle-snowflakes-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+</div>
