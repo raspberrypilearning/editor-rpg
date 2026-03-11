@@ -1,33 +1,16 @@
-<h2 class="c-project-heading--task">Add a garden</h2>
---- task ---
+## Add items to collect
 
-Add a garden to the south of the dining room. 
+Add items in the rooms for the player to collect as they move through the house.
 
---- /task ---
+Add an `'item'`{:.language-python} in the room's dictionary. The code below adds a **key** in the Hall.
 
-
---- task ---
-
-Here’s the final map of the game.
-
-![A map showing the hall containing a key, with the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
-
---- /task ---
-
---- task ---
-
-Add a **potion** in the Dining room, and a **garden**  to the south. 
-
---- /task ---
-
-<div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
 line_number_start: 3
-line_highlights: 16-20
+line_highlights: 7-8
 ---
 # A dictionary linking a room to other rooms
 rooms = {
@@ -36,31 +19,14 @@ rooms = {
         'east' : 'Dining Room',
         'item' : 'key'
     },
-    'Kitchen' : {
-        'north' : 'Hall',
-        'item' : 'monster',
-    },
-    'Dining Room' : {
-        'west' : 'Hall',
-        'south' : 'Garden',
-        'item' : 'potion'
-    },
-    'Garden' : {
-        'north' : 'Dining Room'
-    }
-}
 --- /code ---
-</div>
---- task ---
 
-Click **Stop** and then **Run** and navigate to the `'Garden'`.
+### Now run your code
+You can now see a key in the Hall. You can pick it up by typing `get key`, which adds it to your inventory.
 
---- /task ---
 
-<div class="c-project-callout c-project-callout--tip">
+> ### Debugging
+> 
+> Remember to put a comma after the line above the new item, or your program won’t run!
+{: .c-project-callout .c-project-callout--debug}
 
-### Tip
-
-Going into the garden does not make you win the game yet. The winning gameplay still needs to be added.
-
-</div>

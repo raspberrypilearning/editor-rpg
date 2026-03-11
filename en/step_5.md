@@ -1,13 +1,13 @@
-<h2 class="c-project-heading--task">Add enemies</h2>
+<h2 class="c-project-heading--task">Add items to collect</h2>
 --- task ---
 
-Add a monster that the player must avoid.
+Add items in the rooms for the player to collect as they move through the house.
 
 --- /task ---
 
 --- task ---
 
-Adding a character into a room is the same as adding an item. Add a **monster** to the Kitchen.
+Add an `'item'` in the room's dictionary. The code below adds a **key** in the Hall.
 
 --- /task ---
 
@@ -18,7 +18,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 3
-line_highlights: 11-12
+line_highlights: 7-8
 ---
 # A dictionary linking a room to other rooms
 rooms = {
@@ -27,31 +27,19 @@ rooms = {
         'east' : 'Dining Room',
         'item' : 'key'
     },
-    'Kitchen' : {
-        'north' : 'Hall',
-        'item' : 'monster'
-    },
 --- /code ---
 </div>
 --- task ---
 
-If the player enters a room with a monster in, the game ends. 
-
-Click **Stop** and then **Run** and type `go south`. Test out your code by going into the Kitchen, which now contains a monster.
+Click **Stop** and then **Run**, and you can now see a key in the Hall. You can pick it up by typing `get key`, which adds it to your inventory.
 
 --- /task ---
 
 
-<div class="c-project-output">
-<pre>
+<div class="c-project-callout c-project-callout--debug">
 
-You are in the Hall
-Inventory : []
-You see a key
+### Debugging
 
----------------------------
-> go south
+Remember to put a comma after the line above the new item, or your program won’t run!
 
-A monster has got you... GAME OVER!
-</pre>
 </div>

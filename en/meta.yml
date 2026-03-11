@@ -27,8 +27,16 @@ steps:
 - title: Step 5
 - title: Step 6
 - title: Step 7
+- title: Step 8
+- title: Step 9
+- title: Step 10
+- title: Step 11
+- title: Step 12
+- title: Step 13
+- title: Step 14
+- title: Step 15
   completion:
   - internal
   - external
-- title: Step 8
+- title: Step 16
   challenge: true

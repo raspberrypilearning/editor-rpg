@@ -1,17 +1,13 @@
-<h2 class="c-project-heading--task">Winning the game</h2>
+<h2 class="c-project-heading--task">Add enemies</h2>
 --- task ---
 
-Make it so player wins by getting to the garden with the key and the magic potion.
+Add a monster that the player must avoid.
 
 --- /task ---
 
-More game play is in `game.py`, which you can see by clicking on the file tab.
-
-![screenshot of the file system](images/edit-game.png)
-
 --- task ---
 
-Add the code below to `game.py` so that the player wins when they get to the **garden** with the **key** and the **potion**. 
+Adding a character into a room is the same as adding an item. Add a **monster** to the Kitchen.
 
 --- /task ---
 
@@ -19,63 +15,43 @@ Add the code below to `game.py` so that the player wins when they get to the **g
 --- code ---
 ---
 language: python
-filename: game.py
+filename: main.py
 line_numbers: true
-line_number_start: 74
-line_highlights: 75-77
+line_number_start: 3
+line_highlights: 11-12
 ---
-    # add more game play here
-    if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
-        print('You escaped the house... YOU WIN!')
-        break
-
-
-    return currentRoom, inventory
+# A dictionary linking a room to other rooms
+rooms = {
+    'Hall' : {
+        'south' : 'Kitchen',
+        'east' : 'Dining Room',
+        'item' : 'key'
+    },
+    'Kitchen' : {
+        'north' : 'Hall',
+        'item' : 'monster'
+    },
 --- /code ---
 </div>
 --- task ---
 
-Click **Stop** and then **Run** to test your game to make sure the player can win!
+If the player enters a room with a monster in, the game ends. 
+
+Click **Stop** and then **Run** and type `go south`. Test out your code by going into the Kitchen, which now contains a monster.
 
 --- /task ---
 
 
 <div class="c-project-output">
 <pre>
-Monster Game
-========
-Commands:
-go [direction]
-get [item]
+
+You are in the Hall
+Inventory : []
+You see a key
 
 ---------------------------
-You are in the Hall
-Inventory : []
-You see a key
----------------------------
->
-go west
-You cannot go that way!
----------------------------
-You are in the Hall
-Inventory : []
-You see a key
----------------------------
->
-get key
-You picked up the key
----------------------------
-You are in the Hall
-Inventory : ['key']
----------------------------
->
+> go south
+
+A monster has got you... GAME OVER!
 </pre>
-</div>
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-Make sure the code is indented, in line with the code above it. 
-
 </div>

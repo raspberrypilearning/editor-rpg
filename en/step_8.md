@@ -1,43 +1,46 @@
-<h2 class="c-project-heading--task">Add instructions</h2>
---- task ---
+## Add enemies
+Add a monster that the player must avoid.
 
-Add some instructions to your game, so that the player knows what they have to do.
+Adding a character into a room is the same as adding an item. 
 
---- /task ---
+Add a **monster** to the Kitchen.
 
---- task ---
-
-The player instructions are also in the `game.py` file. Find the  `showInstructions()` and edit it to include more information about how to play.
-
---- /task ---
-
-<div class="c-project-code">
 --- code ---
 ---
 language: python
-filename: game.py
+filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 12-15
+line_number_start: 3
+line_highlights: 11-12
 ---
-def showInstructions():
-    # Print a main menu and the commands
-    print('''
-Monster Game
-========
-
-Get to the garden with a key 🗝️ and a potion 🧪  
-Avoid the monsters❗
-
-Commands 
-go [direction]
-get [item] 
-''')
+# A dictionary linking a room to other rooms
+rooms = {
+    'Hall' : {
+        'south' : 'Kitchen',
+        'east' : 'Dining Room',
+        'item' : 'key'
+    },
+    'Kitchen' : {
+        'north' : 'Hall',
+        'item' : 'monster'
+    },
 --- /code ---
+
+If the player enters a room with a monster in, the game ends. 
+
+### Now run your code
+Type `go south`{:.language-python} to test out your code by going into the Kitchen, which now contains a monster.
+
+
+<div class="c-project-output">
+```
+You are in the Hall
+Inventory : []
+You see a key
+
+---------------------------
+> go south
+
+A monster has got you... GAME OVER!
+```
 </div>
-
---- task ---
-
-Click **Stop** and then **Run** to test your game and you should see your new instructions.
-
---- /task ---

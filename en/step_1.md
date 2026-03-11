@@ -12,14 +12,14 @@ The game is set in a house, type commands to move around the rooms.
 
 --- task ---
 
-Type a direction you can't go, such as `go west` from the Hall.
+Click **Run** and type a direction you can't go, such as `go west` from the Hall.
 
 When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
 
 --- /task ---
 
 <div class="c-project-output">
-```
+<pre>
 go west
 You can't go that way!
 ---------------------------
@@ -27,7 +27,7 @@ You are in the Hall
 Inventory : []
 ---------------------------
 > 
-```
+</pre>
 </div>
 
 --- task ---
