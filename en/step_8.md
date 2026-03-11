@@ -1,64 +1,43 @@
-<h2 class="c-project-heading--task">Challenge</h2>
+<h2 class="c-project-heading--task">Add instructions</h2>
 --- task ---
 
-Create your own version of the game. Here are some ideas:
+Add some instructions to your game, so that the player knows what they have to do.
 
 --- /task ---
 
 --- task ---
 
-Add more rooms to your game. Remember to add a door to/from one of the other rooms. 
+The player instructions are also in the `game.py` file. Find the  `showInstructions()` and edit it to include more information about how to play.
 
-<div class="c-project-callout c-project-callout--tip">
+--- /task ---
 
-### Tip
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: game.py
+line_numbers: true
+line_number_start: 7
+line_highlights: 12-15
+---
+def showInstructions():
+    # Print a main menu and the commands
+    print('''
+Monster Game
+========
 
-Draw a map on paper to keep track of the game design.
+Get to the garden with a key 🗝️ and a potion 🧪  
+Avoid the monsters❗
 
+Commands 
+go [direction]
+get [item] 
+''')
+--- /code ---
 </div>
 
---- /task ---
-
 --- task ---
 
-Edit the status text in `showStatus()` in the game.py file. 
+Click **Stop** and then **Run** to test your game and you should see your new instructions.
 
 --- /task ---
-
-
---- task ---
-
-Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
-
---- /task ---
-
-
---- task ---
-
-Add more monsters to your game, to make it harder to escape.
-
---- /task ---
-
-
---- task ---
-
-Modify the condition for winning - where does the player have to get to, and with which objects in their inventory?
-
---- /task ---
-
-
---- task ---
-
-Add stairs to your map and have more than one level of rooms, by typing `go up` and `go down`.
-
---- /task ---
-
-
---- task ---
-
-Change the setting, where else could the game be set?
-
---- /task ---
-
-
-

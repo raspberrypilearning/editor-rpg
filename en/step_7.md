@@ -1,13 +1,17 @@
-<h2 class="c-project-heading--task">Add instructions</h2>
+<h2 class="c-project-heading--task">Winning the game</h2>
 --- task ---
 
-Add some instructions to your game, so that the player knows what they have to do.
+Make it so player wins by getting to the garden with the key and the magic potion.
 
 --- /task ---
 
+More game play is in `game.py`, which you can see by clicking on the file tab.
+
+![screenshot of the file system](images/edit-game.png)
+
 --- task ---
 
-The player instructions are also in the `game.py` file. Find the  `showInstructions()` and edit it to include more information about how to play.
+Add the code below to `game.py` so that the player wins when they get to the **garden** with the **key** and the **potion**. 
 
 --- /task ---
 
@@ -17,27 +21,61 @@ The player instructions are also in the `game.py` file. Find the  `showInstructi
 language: python
 filename: game.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 12-15
+line_number_start: 74
+line_highlights: 75-77
 ---
-def showInstructions():
-    # Print a main menu and the commands
-    print('''
-Monster Game
-========
+    # add more game play here
+    if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
+        print('You escaped the house... YOU WIN!')
+        break
 
-Get to the garden with a key 🗝️ and a potion 🧪  
-Avoid the monsters❗
 
-Commands 
-go [direction]
-get [item] 
-''')
+    return currentRoom, inventory
 --- /code ---
 </div>
-
 --- task ---
 
-Click **Stop** and then **Run** to test your game and you should see your new instructions.
+Click **Stop** and then **Run** to test your game to make sure the player can win!
 
 --- /task ---
+
+
+<div class="c-project-output">
+<pre>
+Monster Game
+========
+Commands:
+go [direction]
+get [item]
+
+---------------------------
+You are in the Hall
+Inventory : []
+You see a key
+---------------------------
+>
+go west
+You cannot go that way!
+---------------------------
+You are in the Hall
+Inventory : []
+You see a key
+---------------------------
+>
+get key
+You picked up the key
+---------------------------
+You are in the Hall
+Inventory : ['key']
+---------------------------
+>
+</pre>
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+Make sure the code is indented, in line with the code above it. 
+
+</div>

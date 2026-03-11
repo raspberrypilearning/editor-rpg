@@ -4,6 +4,10 @@ Design and code a game where the player must collect objects, making sure to avo
 
 ## Try it out
 
+Here’s the final map of the game.
+
+![A map showing the hall containing a key, with the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
+
 Click **run** in the editor below to try it out.
 
 + Type **go** and then a direction (north, east, south or west) to move around (e.g. **go north**).
