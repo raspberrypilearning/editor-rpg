@@ -1,11 +1,6 @@
 <h2 class="c-project-heading--task">Challenge</h2>
---- task ---
 
 Create your own version of the game. Here are some ideas:
-
---- /task ---
-
---- task ---
 
 Add more rooms to your game. Remember to add a door to/from one of the other rooms. 
 
