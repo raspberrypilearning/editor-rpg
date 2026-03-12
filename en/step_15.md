@@ -17,48 +17,14 @@ Draw a map on paper to keep track of the game design.
 
 </div>
 
---- /task ---
 
---- task ---
+1. Edit the status text in `showStatus()` in the game.py file. 
+2. Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
+3. Add more monsters to your game, to make it harder to escape.
+4. Modify the condition for winning - where does the player have to get to, and with which objects in their inventory?
+5. Add stairs to your map and have more than one level of rooms, by typing `go up` and `go down`.
+6. Change the setting, where else could the game be set?
 
-Edit the status text in `showStatus()` in the game.py file. 
-
---- /task ---
-
-
---- task ---
-
-Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
-
---- /task ---
-
-
---- task ---
-
-Add more monsters to your game, to make it harder to escape.
-
---- /task ---
-
-
---- task ---
-
-Modify the condition for winning - where does the player have to get to, and with which objects in their inventory?
-
---- /task ---
-
-
---- task ---
-
-Add stairs to your map and have more than one level of rooms, by typing `go up` and `go down`.
-
---- /task ---
-
-
---- task ---
-
-Change the setting, where else could the game be set?
-
---- /task ---
 
 
 
