@@ -1,32 +1,70 @@
-## Add items to collect
+## Winning the game
 
-Add items in the rooms for the player to collect as they move through the house.
+Make it so player wins by getting to the garden with the key and the magic potion.
 
-Add an `'item'`{:.language-python} in the room's dictionary. The code below adds a **key** in the Hall.
+### Step 1
+More game play is in the `game.py`{:.language-python} file. Open this by clicking on the file tab.
+
+![screenshot of the file system](images/edit-game.png)
+
+### Step 2
+Add the code below to `game.py`{:.language-python} so that the player wins when they get to the **garden** with the **key** and the **potion**. 
 
 --- code ---
 ---
 language: python
-filename: main.py
+filename: game.py
 line_numbers: true
-line_number_start: 3
-line_highlights: 7-8
+line_number_start: 74
+line_highlights: 75-77
 ---
-# A dictionary linking a room to other rooms
-rooms = {
-    'Hall' : {
-        'south' : 'Kitchen',
-        'east' : 'Dining Room',
-        'item' : 'key'
-    },
+    # add more game play here
+    if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
+        print('You escaped the house... YOU WIN!')
+        break
+
+
+    return currentRoom, inventory
 --- /code ---
 
 ### Now run your code
-You can now see a key in the Hall. You can pick it up by typing `get key`, which adds it to your inventory.
+Test your game to make sure the player can win!
+
+
+<div class="c-project-output">
+```
+Monster Game
+========
+Commands:
+go [direction]
+get [item]
+
+---------------------------
+You are in the Hall
+Inventory : []
+You see a key
+---------------------------
+>
+go west
+You cannot go that way!
+---------------------------
+You are in the Hall
+Inventory : []
+You see a key
+---------------------------
+>
+get key
+You picked up the key
+---------------------------
+You are in the Hall
+Inventory : ['key']
+---------------------------
+>
+```
+</div>
 
 
 > ### Debugging
 > 
-> Remember to put a comma after the line above the new item, or your program won’t run!
+> Make sure the code is indented, in line with the code above it. 
 {: .c-project-callout .c-project-callout--debug}
-

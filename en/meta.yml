@@ -18,25 +18,18 @@ software: python
 version: 3
 last_tested: 2025-01-02
 steps:
-- title: Step 1
+- title: Go the wrong way
+- title: Add a new room
   completion:
   - engaged
-- title: Step 2
-- title: Step 3
-- title: Step 4
-- title: Step 5
-- title: Step 6
-- title: Step 7
-- title: Step 8
-- title: Step 9
-- title: Step 10
-- title: Step 11
-- title: Step 12
-- title: Step 13
-- title: Step 14
-- title: Step 15
+- title: Add items to collect
+- title: Add enemies
+- title: Add a garden
+- title: Winning the game
   completion:
   - internal
+- title: Add instructions
+  completion:
   - external
-- title: Step 16
+- title: Challenge
   challenge: true
