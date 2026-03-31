@@ -1,14 +1,42 @@
-title: Project title in sentence case
-hero_image: images/banner.png
-description: A short description of the project
+---
+hero_image: images/rpg.png
+theme: navy
+duration: 2
 listed: false
-pdf: false
+landing: true
+ingredient: false
+copyedit: false
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+title: Escape the maze
+description: Design and code your own maze escape text-based game.
+original_url: https://codeclubprojects.org/en-GB/python/rpg
+interests: games
+technologies: python
+site_areas: projects
+hardware: ''
+software: python
+version: 3
+last_tested: 2025-01-02
 steps:
-  - title: What you will make
-  - title: Step title
-    completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
-    completion:
-      - external
+- title: Step 1
+  completion:
+  - engaged
+- title: Step 2
+- title: Step 3
+- title: Step 4
+- title: Step 5
+- title: Step 6
+- title: Step 7
+- title: Step 8
+- title: Step 9
+- title: Step 10
+- title: Step 11
+- title: Step 12
+- title: Step 13
+- title: Step 14
+- title: Step 15
+  completion:
+  - internal
+  - external
+- title: Step 16
+  challenge: true

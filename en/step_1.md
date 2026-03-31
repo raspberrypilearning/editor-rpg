@@ -1,45 +1,37 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Go the wrong way</h2>
 
-A brief description - one or two sentences. 
+--- task ---
 
---- print-only ---
+The game is set in a house, type commands to move around the rooms.
 
-![ALT TEXT](images/IMAGE.png)
+--- /task ---
 
---- /print-only ---
+<h2 class="c-project-heading--explainer">Here’s what the house looks like to start with:</h2>
 
---- no-print ---
+![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them.](images/rpg-map1.png)
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+--- task ---
 
---- /no-print ---
+Click **Run** and type a direction you can't go, such as `go west` from the Hall.
 
---- no-print ---
+When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
 
-Video embed
+--- /task ---
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+<div class="c-project-output">
+<pre>
+go west
+You can't go that way!
+---------------------------
+You are in the Hall
+Inventory : []
+---------------------------
+> 
+</pre>
 </div>
 
---- /no-print ---
+--- task ---
 
-### You will need:
-- a
-- b
-- c
+Experiment with other directions. Type `go south` to move from the Hall to the Kitchen, and then `go north` to go back to the Hall again
+
+--- /task ---
