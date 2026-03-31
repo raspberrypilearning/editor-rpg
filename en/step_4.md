@@ -1,49 +1,46 @@
-## Add a new room
+## Add enemies
+Add a monster that the player must avoid.
 
-Add rooms. Use code to put a Dining Room east of the hall.
+Adding a character into a room is the same as adding an item. 
 
-
-Each room on the map can be coded as a **dictionary**, and rooms are linked together using directions.  
-
-![A map with two rooms - hall is in the North and kitchen is below it. There is a door between them. A dining room has been added to the right of the hall.](images/rpg-dining.png)
-
-
-Add the code below to make a new room, and link it to the Hall.
-
+Add a **monster** to the Kitchen.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 6-7, 11-13
+line_number_start: 3
+line_highlights: 11-12
 ---
 # A dictionary linking a room to other rooms
 rooms = {
     'Hall' : {
         'south' : 'Kitchen',
-        'east' : 'Dining Room'
+        'east' : 'Dining Room',
+        'item' : 'key'
     },
     'Kitchen' : {
-        'north' : 'Hall'
+        'north' : 'Hall',
+        'item' : 'monster'
     },
-    'Dining Room' : {
-        'west' : 'Hall'
-    }
-}
 --- /code ---
 
+If the player enters a room with a monster in, the game ends. 
 
 ### Now run your code
-Type `go east`{:.language-python} from the Hall to move into to the Dining Room, and `go west`{:.language-python} to move back to the Hall.
+Type `go south`{:.language-python} to test out your code by going into the Kitchen, which now contains a monster.
 
 
-> ### Debugging
->
-> + Don't forget to add a comma after 'kitchen' when you add a new direction.
-> + Make sure you have "closed" the dictionary using curly brackets.
-{: .c-project-callout .c-project-callout--debug}
+<div class="c-project-output">
+```
+You are in the Hall
+Inventory : []
+You see a key
 
+---------------------------
+> go south
 
-
+A monster has got you... GAME OVER!
+```
+</div>

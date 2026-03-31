@@ -1,46 +1,36 @@
-## Add enemies
-Add a monster that the player must avoid.
+## Challenge
 
-Adding a character into a room is the same as adding an item. 
+Create your own version of the game. Here are some ideas:
 
-Add a **monster** to the Kitchen.
+### Step 1
+Add more rooms to your game. Remember to add a door to/from one of the other rooms. 
 
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 3
-line_highlights: 11-12
----
-# A dictionary linking a room to other rooms
-rooms = {
-    'Hall' : {
-        'south' : 'Kitchen',
-        'east' : 'Dining Room',
-        'item' : 'key'
-    },
-    'Kitchen' : {
-        'north' : 'Hall',
-        'item' : 'monster'
-    },
---- /code ---
-
-If the player enters a room with a monster in, the game ends. 
-
-### Now run your code
-Type `go south`{:.language-python} to test out your code by going into the Kitchen, which now contains a monster.
+> ### Tip
+> 
+> Draw a map on paper to keep track of the game design.
+{: .c-project-callout .c-project-callout--tip}
 
 
-<div class="c-project-output">
-```
-You are in the Hall
-Inventory : []
-You see a key
+### Step 2
+Edit the status text in `showStatus()` in the game.py file. 
 
----------------------------
-> go south
 
-A monster has got you... GAME OVER!
-```
-</div>
+### Step 3
+Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
+
+
+### Step 4
+Add more monsters to your game, to make it harder to escape.
+
+
+### Step 5
+Modify the condition for winning - where does the player have to get to, and with which objects in their inventory?
+
+
+### Step 6
+Add stairs to your map and have more than one level of rooms, by typing `go up` and `go down`.
+
+
+### Step 7
+Change the setting, where else could the game be set?
+
