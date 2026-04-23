@@ -1,15 +1,22 @@
-## Winning the game
+<h2 class="c-project-heading--task">Winning the game</h2>
 
 Make it so player wins by getting to the garden with the key and the magic potion.
 
-### Step 1
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
+
 More game play is in the `game.py`{:.language-python} file. Open this by clicking on the file tab.
 
+<div class="c-project-output">
 ![screenshot of the file system](images/edit-game.png)
+</div>
 
-### Step 2
-Add the code below to `game.py`{:.language-python} so that the player wins when they get to the **garden** with the **key** and the **potion**. 
+## Step 2
 
+Add the code below to `game.py`{:.language-python} so that the player wins when they get to the **garden** with the **key** and the **potion**.
+
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -26,13 +33,21 @@ line_highlights: 75-77
 
     return currentRoom, inventory
 --- /code ---
+</div>
 
-### Now run your code
-Test your game to make sure the player can win!
+### Debugging
+<div class="c-project-callout c-project-callout--debug">
 
+Make sure the code is indented, in line with the code above it.
+
+</div>
+
+## Now run your code
+
+Test your game to make sure the player can win.
 
 <div class="c-project-output">
-```
+<pre>
 Monster Game
 ========
 Commands:
@@ -60,11 +75,5 @@ You are in the Hall
 Inventory : ['key']
 ---------------------------
 >
-```
+</pre>
 </div>
-
-
-> ### Debugging
-> 
-> Make sure the code is indented, in line with the code above it. 
-{: .c-project-callout .c-project-callout--debug}
