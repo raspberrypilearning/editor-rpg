@@ -1,13 +1,16 @@
-## Add a garden
+<h2 class="c-project-heading--task">Add a garden</h2>
 
-Add a garden to the south of the dining room. 
+Add a garden to the south of the dining room.
 
-Here’s the final map of the game.
+<h2 class="c-project-heading--explainer">Here's the final map of the game.</h2>
 
+<div class="c-project-output">
 ![A map showing the hall containing a key, with the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
+</div>
 
-Add a **potion** in the Dining room, and a **garden**  to the south. 
+Add a **potion** in the Dining room, and a **garden** to the south.
 
+<div class="c-project-code">
 --- code ---
 ---
 language: python
@@ -37,12 +40,15 @@ rooms = {
     }
 }
 --- /code ---
+</div>
 
-### Now run your code
+### Tip
+<div class="c-project-callout c-project-callout--tip">
+
+Going into the garden does not make you win the game yet. The winning gameplay still needs to be added.
+
+</div>
+
+## Now run your code
+
 Navigate to the `'Garden'`{:.language-python} to test it out.
-
-
-> ### Tip
-> 
-> Going into the garden does not make you win the game yet. The winning gameplay still needs to be added.
-{: .c-project-callout .c-project-callout--tip}
