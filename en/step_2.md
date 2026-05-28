@@ -2,8 +2,6 @@
 
 Add rooms.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Use code to put a Dining Room east of the hall.
 
 Each room on the map can be coded as a **dictionary**, and rooms are linked together using directions.
