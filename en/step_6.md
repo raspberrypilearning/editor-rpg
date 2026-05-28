@@ -2,8 +2,6 @@
 
 Make it so player wins by getting to the garden with the key and the magic potion.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 More game play is in the `game.py`{:.language-python} file. Open this by clicking on the file tab.
