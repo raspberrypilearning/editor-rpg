@@ -2,8 +2,6 @@
 
 Add a monster that the player must avoid.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Adding a character into a room is the same as adding an item.
 
 Add a **monster** to the Kitchen.
