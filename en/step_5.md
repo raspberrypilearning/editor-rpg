@@ -5,10 +5,10 @@ Add a garden to the south of the dining room.
 <h2 class="c-project-heading--explainer">Here's the final map of the game.</h2>
 
 <div class="c-project-output">
-![A map showing the hall containing a key, with the dining room to the East containing a potion. The kitchen is South of the hall and contains a monster. The garden is East of the kitchen and South of the dining room.](images/rpg-final-map.png)
+![A map showing the hall containing a key, with the dining room to the east containing a potion. The kitchen is south of the hall and contains a monster. The garden is east of the kitchen and south of the dining room.](images/rpg-final-map.png)
 </div>
 
-Add a **potion** in the Dining room, and a **garden** to the south.
+Add a **potion** in the dining room, and a **garden** to the south.
 
 <div class="c-project-code">
 --- code ---
