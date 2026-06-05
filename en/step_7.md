@@ -2,7 +2,7 @@
 
 Add some instructions to your game, so that the player knows what they have to do.
 
-The player instructions are also in the `game.py`{:.language-python} file. Find the `showInstructions()`{:.language-python} and edit it to include more information about how to play.
+The player instructions are also in the `game.py`{:.language-python} file. Find the `showInstructions()`{:.language-python} function and edit it to include more information about how to play.
 
 <div class="c-project-code">
 --- code ---
