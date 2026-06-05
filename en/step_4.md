@@ -4,7 +4,7 @@ Add a monster that the player must avoid.
 
 Adding a character into a room is the same as adding an item.
 
-Add a **monster** to the Kitchen.
+Add a **monster** to the kitchen.
 
 <div class="c-project-code">
 --- code ---
@@ -33,7 +33,7 @@ If the player enters a room with a monster in, the game ends.
 
 ## Now run your code
 
-Type `go south`{:.language-python} to test out your code by going into the Kitchen, which now contains a monster.
+Type `go south`{:.language-python} to test out your code by going into the kitchen, which now contains a monster.
 
 <div class="c-project-output">
 <pre>
