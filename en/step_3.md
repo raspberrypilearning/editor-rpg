@@ -2,7 +2,7 @@
 
 Add items in the rooms for the player to collect as they move through the house.
 
-Add an `'item'`{:.language-python} in the room's dictionary. The code below adds a **key** in the Hall.
+Add an `'item'` in the room's dictionary. The code below adds a **key** in the Hall.
 
 <div class="c-project-code">
 --- code ---

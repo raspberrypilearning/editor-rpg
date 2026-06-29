@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Winning the game</h2>
 
-Make it so player wins by getting to the garden with the key and the magic potion.
+Make it so the player wins by getting to the garden with the key and the magic potion.
 
 ## Step 1
 

@@ -25,19 +25,19 @@ Add more items. You can add anything that you think would be helpful in trying t
 
 ## Step 4
 
-Add more monsters to your game, to make it harder to escape.
+Add more monsters to your game to make it harder to escape.
 
 ## Step 5
 
-Modify the condition for winning - where does the player have to get to, and with which objects in their inventory?
+Modify the condition for winning. Where does the player have to get to, and with which objects in their inventory?
 
 ## Step 6
 
-Add stairs to your map and have more than one level of rooms, by typing `go up` and `go down`.
+Add stairs to your map and have more than one level of rooms. Change level by typing `go up` and `go down`.
 
 ## Step 7
 
-Change the setting, where else could the game be set?
+Change the setting. Where else could the game be set?
 
 ## Now run your code
 
