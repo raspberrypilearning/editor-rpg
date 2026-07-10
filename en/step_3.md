@@ -1,18 +1,10 @@
-<h2 class="c-project-heading--task">Add items to collect</h2>
+## Add items to collect
 
 Add items in the rooms for the player to collect as they move through the house.
 
 Add an `'item'` in the room's dictionary. The code below adds a **key** in the Hall.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 3
-line_highlights: 7-8
----
+```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="7-8"
 # A dictionary linking a room to other rooms
 rooms = {
     'Hall' : {
@@ -20,15 +12,11 @@ rooms = {
         'east' : 'Dining Room',
         'item' : 'key'
     },
---- /code ---
-</div>
+```
 
-### Debugging
-<div class="c-project-callout c-project-callout--debug">
-
-Remember to put a comma after the line above the new item, or your program won't run!
-
-</div>
+> [!DEBUG]
+>
+> Remember to put a comma after the line above the new item, or your program won't run!
 
 ## Now run your code
 

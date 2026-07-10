@@ -1,43 +1,40 @@
-<h2 class="c-project-heading--task">Challenge</h2>
+## Challenge
 
 Create your own version of the game.
 
-<h2 class="c-project-heading--explainer">Here are some ideas:</h2>
+Here are some ideas:
 
-## Step 1
+> [!CHALLENGE]
+>
+> Add more rooms to your game. Remember to add a door to/from one of the other rooms.
 
-Add more rooms to your game. Remember to add a door to/from one of the other rooms.
+> [!TIP]
+>
+> Draw a map on paper to keep track of the game design.
 
-### Tip
-<div class="c-project-callout c-project-callout--tip">
+> [!CHALLENGE]
+>
+> Edit the status text in `showStatus()` in the game.py file.
 
-Draw a map on paper to keep track of the game design.
+> [!CHALLENGE]
+>
+> Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
 
-</div>
+> [!CHALLENGE]
+>
+> Add more monsters to your game to make it harder to escape.
 
-## Step 2
+> [!CHALLENGE]
+>
+> Modify the condition for winning. Where does the player have to get to, and with which objects in their inventory?
 
-Edit the status text in `showStatus()` in the game.py file.
+> [!CHALLENGE]
+>
+> Add stairs to your map and have more than one level of rooms. Change level by typing `go up` and `go down`.
 
-## Step 3
-
-Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
-
-## Step 4
-
-Add more monsters to your game to make it harder to escape.
-
-## Step 5
-
-Modify the condition for winning. Where does the player have to get to, and with which objects in their inventory?
-
-## Step 6
-
-Add stairs to your map and have more than one level of rooms. Change level by typing `go up` and `go down`.
-
-## Step 7
-
-Change the setting. Where else could the game be set?
+> [!CHALLENGE]
+>
+> Change the setting. Where else could the game be set?
 
 ## Now run your code
 

@@ -1,24 +1,16 @@
-<h2 class="c-project-heading--task">Add a garden</h2>
+## Add a garden
 
 Add a garden to the south of the dining room.
 
-<h2 class="c-project-heading--explainer">Here's the final map of the game.</h2>
-
-<div class="c-project-output">
-![A map showing the hall containing a key, with the dining room to the east containing a potion. The kitchen is south of the hall and contains a monster. The garden is east of the kitchen and south of the dining room.](images/rpg-final-map.png)
-</div>
+> [!INFO]
+>
+> Here's the final map of the game.
+>
+> ![A map showing the hall containing a key, with the dining room to the east containing a potion. The kitchen is south of the hall and contains a monster. The garden is east of the kitchen and south of the dining room.](images/rpg-final-map.png)
 
 Add a **potion** in the dining room, and a **garden** to the south.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 3
-line_highlights: 16-20
----
+```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="16-20"
 # A dictionary linking a room to other rooms
 rooms = {
     'Hall' : {
@@ -39,15 +31,11 @@ rooms = {
         'north' : 'Dining Room'
     }
 }
---- /code ---
-</div>
+```
 
-### Tip
-<div class="c-project-callout c-project-callout--tip">
-
-Going into the garden does not make you win the game yet. The winning gameplay still needs to be added.
-
-</div>
+> [!TIP]
+>
+> Going into the garden does not make you win the game yet. The winning gameplay still needs to be added.
 
 ## Now run your code
 
