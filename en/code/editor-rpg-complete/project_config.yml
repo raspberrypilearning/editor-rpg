@@ -1,3 +1,4 @@
 name: 'RPG Complete'
 identifier: 'editor-rpg-complete'
 type: 'python'
+build: true
