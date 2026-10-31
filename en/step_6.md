@@ -6,9 +6,9 @@ Make it so the player wins by getting to the garden with the key and the magic p
 
 More of the game is in the `game.py`{:.language-python} file. Click the **Project files** icon on the left, then click **game.py**. It opens in a new tab next to **main.py**.
 
-Click the **Instructions** icon to come back to these instructions. You can switch between `main.py`{:.language-python} and `game.py`{:.language-python} using the tabs above your code.
+Click the **Project instructions** icon to come back to these instructions. You can switch between `main.py`{:.language-python} and `game.py`{:.language-python} using the tabs above your code.
 
-![screenshot of the file system](images/edit-game.png)
+![The Code Editor with the Project files panel open. game.py is open in a tab next to main.py. The Project instructions icon is above the Project files icon on the left.](images/edit-game.png)
 
 ## Step 2
 
