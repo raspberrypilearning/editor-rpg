@@ -11,14 +11,23 @@ def showInstructions():
 Monster Game
 ========
 
-Get to the garden with a key 🗝️ and a potion 🧪
-Avoid the monsters❗
+Get to the garden with a key 🔑 and a potion 🧪
+Avoid the monsters!
 
-Commands
+Commands:
 go [direction]
 get [item]
 ''')
 ```
+
+> [!TIP]
+>
+> Emojis are optional. Plain words work just as well. To add one, open the emoji keyboard:
+> + **Windows:** press the Windows key and **.** (full stop)
+> + **Mac:** press **Control**, **Command** and **Space**
+> + **Chromebook:** press **Search**, **Shift** and **Space**
+>
+> Then search for the emoji, for example "key" or "test tube".
 
 ## Now run your code
 

@@ -6,7 +6,7 @@ Here are some ideas:
 
 > [!CHALLENGE]
 >
-> Add more rooms to your game. Remember to add a door to/from one of the other rooms.
+> Add more rooms to your game. Link each new room to a room that's already in the house, in both directions. For example, if a Library is west of the Hall, add `'west' : 'Library'` to the Hall and `'east' : 'Hall'` to the Library.
 
 > [!TIP]
 >

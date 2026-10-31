@@ -10,12 +10,12 @@ def showInstructions():
 Monster Game
 ========
 
-Get to the garden with a key 🗝️ and a potion 🧪  
-Avoid the monster❗
+Get to the garden with a key 🔑 and a potion 🧪
+Avoid the monsters!
 
-Commands 
+Commands:
 go [direction]
-get [item] 
+get [item]
 ''')
 
 

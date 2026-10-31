@@ -4,7 +4,9 @@ Make it so the player wins by getting to the garden with the key and the magic p
 
 ## Step 1
 
-More game play is in the `game.py`{:.language-python} file. Open this by clicking on the file tab.
+More of the game is in the `game.py`{:.language-python} file. Click the **Project files** icon on the left, then click **game.py**. It opens in a new tab next to **main.py**.
+
+Click the **Instructions** icon to come back to these instructions. You can switch between `main.py`{:.language-python} and `game.py`{:.language-python} using the tabs above your code.
 
 ![screenshot of the file system](images/edit-game.png)
 
@@ -13,10 +15,10 @@ More game play is in the `game.py`{:.language-python} file. Open this by clickin
 Add the code below to `game.py`{:.language-python} so that the player wins when they get to the **garden** with the **key** and the **potion**.
 
 ```python filename="game.py" line_numbers="true" line_number_start="74" line_highlights="75-77"
-    # add more game play here
-    if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
-        print('You escaped the house... YOU WIN!')
-        break
+        # add more game play here
+        if currentRoom == 'Garden' and 'key' in inventory and 'potion' in inventory:
+            print('You escaped the house... YOU WIN!')
+            break
 
 
     return currentRoom, inventory
@@ -43,14 +45,6 @@ Inventory : []
 You see a key
 ---------------------------
 >
-go west
-You cannot go that way!
----------------------------
-You are in the Hall
-Inventory : []
-You see a key
----------------------------
->
 get key
 You picked up the key
 ---------------------------
@@ -58,4 +52,20 @@ You are in the Hall
 Inventory : ['key']
 ---------------------------
 >
+go east
+---------------------------
+You are in the Dining Room
+Inventory : ['key']
+You see a potion
+---------------------------
+>
+get potion
+You picked up the potion
+---------------------------
+You are in the Dining Room
+Inventory : ['key', 'potion']
+---------------------------
+>
+go south
+You escaped the house... YOU WIN!
 ```
