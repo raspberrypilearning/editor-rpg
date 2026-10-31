@@ -2,7 +2,7 @@
 
 Add some instructions to your game, so that the player knows what they have to do.
 
-The player instructions are also in the `game.py`{:.language-python} file. Find the `showInstructions()`{:.language-python} function and edit it to include more information about how to play.
+The player instructions are also in the `game.py`{:.language-python} file. Click the **game.py** tab above your code, find the `showInstructions()`{:.language-python} function, and change it to include more information about how to play.
 
 ```python filename="game.py" line_numbers="true" line_number_start="7" line_highlights="12-15"
 def showInstructions():
@@ -31,4 +31,4 @@ get [item]
 
 ## Now run your code
 
-Test your game and you should see your new instructions.
+Click **Run**. Your new instructions appear at the top of the **Text output**.

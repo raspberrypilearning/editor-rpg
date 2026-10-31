@@ -6,7 +6,7 @@ Here are some ideas:
 
 > [!CHALLENGE]
 >
-> Add more rooms to your game. Link each new room to a room that's already in the house, in both directions. For example, if a Library is west of the Hall, add `'west' : 'Library'` to the Hall and `'east' : 'Hall'` to the Library.
+> In `main.py`, add more rooms to your game. Link each new room to a room that's already in the house, in both directions. For example, if a Library is west of the Hall, add `'west' : 'Library'` to the Hall and `'east' : 'Hall'` to the Library.
 
 > [!TIP]
 >
@@ -14,23 +14,23 @@ Here are some ideas:
 
 > [!CHALLENGE]
 >
-> Edit the status text in `showStatus()` in the game.py file.
+> In `game.py`, change the status text in `showStatus()`.
 
 > [!CHALLENGE]
 >
-> Add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
+> In `main.py`, add more items. You can add anything that you think would be helpful in trying to escape the house! For example, a shield or a magic potion.
 
 > [!CHALLENGE]
 >
-> Add more monsters to your game to make it harder to escape.
+> In `main.py`, add more monsters to your game to make it harder to escape.
 
 > [!CHALLENGE]
 >
-> Modify the condition for winning. Where does the player have to get to, and with which objects in their inventory?
+> In `game.py`, change the condition for winning. Where does the player have to get to, and with which objects in their inventory?
 
 > [!CHALLENGE]
 >
-> Add stairs to your map and have more than one level of rooms. Change level by typing `go up` and `go down`.
+> In `main.py`, add stairs to your map and have more than one level of rooms. Players change level by typing `go up` and `go down` in the **Text output**.
 
 > [!CHALLENGE]
 >
@@ -38,4 +38,4 @@ Here are some ideas:
 
 ## Now run your code
 
-Try your updated version of the game and see how your changes affect the gameplay.
+Click **Run** and play your game in the **Text output** to see how your changes affect the gameplay.

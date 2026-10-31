@@ -4,7 +4,7 @@ Add a monster that the player must avoid.
 
 Adding a character into a room is the same as adding an item.
 
-Add a **monster** to the kitchen.
+In `main.py`, add a **monster** to the kitchen.
 
 ```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="11-12"
 # A dictionary linking a room to other rooms
@@ -24,15 +24,15 @@ If the player enters a room with a monster in, the game ends.
 
 ## Now run your code
 
-Type `go south`{:.language-python} to test out your code by going into the kitchen, which now contains a monster.
+Click **Run**. In the **Text output**, type `go south` and press **Enter** to go into the kitchen, which now has a monster in it.
 
 ```
+---------------------------
 You are in the Hall
 Inventory : []
 You see a key
-
 ---------------------------
-> go south
-
+>
+go south
 A monster has got you... GAME OVER!
 ```

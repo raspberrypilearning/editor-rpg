@@ -1,6 +1,6 @@
 ## Go the wrong way
 
-The game is set in a house. Type commands to move around the house.
+The game is set in a house. To play, you type commands into the **Text output** to move around the house. You don't type them into your code.
 
 > [!INFO]
 >
@@ -16,7 +16,7 @@ Click **Run**. The game starts in the **Text output**. Depending on the size of 
 
 ## Step 2
 
-When you see the `>` prompt, type `go west` and press **Enter**. What you type appears in blue under the `>`.
+When you see the `>` prompt in the **Text output**, type `go west` and press **Enter**. What you type appears in blue under the `>`.
 
 > [!TIP]
 >
@@ -37,8 +37,10 @@ Inventory : []
 
 ## Step 3
 
-Type `go south` to move to the kitchen, then `go north` to go back to the hall.
+In the **Text output**, type `go south` to move to the kitchen, then `go north` to go back to the hall.
 
 ## Now run your code
 
-Click **Run** to start a new game. Try a direction that does not work, then move south to the kitchen and north back to the hall.
+Your game is still running, so the button under your code now says **Stop**. Click **Stop**, then click **Run** to start a new game.
+
+In the **Text output**, try a direction that does not work, then move south to the kitchen and north back to the hall.

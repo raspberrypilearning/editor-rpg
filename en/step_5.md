@@ -8,7 +8,7 @@ Add a garden to the south of the dining room.
 >
 > ![A map showing the hall containing a key, with the dining room to the east containing a potion. The kitchen is south of the hall and contains a monster. The garden is east of the kitchen and south of the dining room.](images/rpg-final-map.png)
 
-Add a **potion** in the dining room, and a **garden** to the south.
+In `main.py`, add a **potion** in the dining room, and a **garden** to the south.
 
 ```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="15-21"
 # A dictionary linking a room to other rooms
@@ -39,4 +39,4 @@ rooms = {
 
 ## Now run your code
 
-Navigate to the `'Garden'`{:.language-python} to test it out.
+Click **Run**. In the **Text output**, type `go east` and then `go south` to get to the garden.
