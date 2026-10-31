@@ -10,7 +10,9 @@ The game is set in a house. Type commands to move around the house.
 
 ## Step 1
 
-Click **Run**. The game starts in the **Text output** below your code.
+Click **Run**. The game starts in the **Text output**. Depending on the size of your screen, this is next to your code or below it.
+
+![The Text output tab showing the start of the game. It lists the commands, says You are in the Hall, and ends with a > prompt.](images/text-output.png)
 
 ## Step 2
 
