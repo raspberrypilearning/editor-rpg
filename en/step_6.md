@@ -12,7 +12,7 @@ Click the **Project instructions** icon to come back to these instructions. You 
 
 ## Step 2
 
-Add the code below to `game.py`{:.language-python} so that the player wins when they get to the **garden** with the **key** and the **potion**.
+In `game.py`{:.language-python}, add the code below so that the player wins when they get to the **garden** with the **key** and the **potion**.
 
 ```python filename="game.py" line_numbers="true" line_number_start="74" line_highlights="75-77"
         # add more game play here
@@ -30,7 +30,7 @@ Add the code below to `game.py`{:.language-python} so that the player wins when 
 
 ## Now run your code
 
-Test your game to make sure the player can win.
+Click **Run**. In the **Text output**, pick up the key and the potion, then go to the garden to check that you win.
 
 ```
 Monster Game

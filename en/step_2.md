@@ -8,7 +8,13 @@ Each room on the map can be coded as a **dictionary**, and rooms are linked toge
 
 ![A map with three rooms. The hall is in the north and the kitchen is below it. There is a door between them. A dining room has been added to the right of the hall.](images/rpg-dining.png)
 
-Add the code below to make a new room, and link it to the hall.
+> [!INFO]
+>
+> In this project, you type in two places:
+> + **In your code** (`main.py` or `game.py`) to build the game
+> + **In the Text output**, after you click **Run**, to play the game
+
+In `main.py`, add the code below to make a new room, and link it to the hall.
 
 ```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="6-7,11-14"
 # A dictionary linking a room to other rooms
@@ -33,4 +39,8 @@ rooms = {
 
 ## Now run your code
 
-Type `go east`{:.language-python} from the hall to move into the dining room, and `go west`{:.language-python} to move back to the hall.
+Click **Run**. In the **Text output**, type `go east` and press **Enter** to move from the hall into the dining room. Then type `go west` to go back to the hall.
+
+> [!TIP]
+>
+> If the button says **Stop** instead of **Run**, your game from the last step is still running. Click **Stop**, then click **Run** to start the game with your new code. It's fine if you see **Execution interrupted** in the **Text output**.
