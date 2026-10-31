@@ -10,7 +10,7 @@ Add a garden to the south of the dining room.
 
 Add a **potion** in the dining room, and a **garden** to the south.
 
-```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="16-20"
+```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="15-21"
 # A dictionary linking a room to other rooms
 rooms = {
     'Hall' : {
@@ -20,7 +20,7 @@ rooms = {
     },
     'Kitchen' : {
         'north' : 'Hall',
-        'item' : 'monster',
+        'item' : 'monster'
     },
     'Dining Room' : {
         'west' : 'Hall',

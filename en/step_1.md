@@ -10,11 +10,20 @@ The game is set in a house. Type commands to move around the house.
 
 ## Step 1
 
-Type a direction you can't go, such as `go west` from the hall.
+Click **Run**. The game starts in the **Text output** below your code.
 
-When you type the wrong direction, the error message reminds you where you are plus any items in your inventory.
+## Step 2
+
+When you see the `>` prompt, type `go west` and press **Enter**. What you type appears in blue under the `>`.
+
+> [!TIP]
+>
+> If nothing appears when you type, click in the **Text output** and try again.
+
+You can't go west from the hall, so the game reminds you where you are and what's in your inventory:
 
 ```
+>
 go west
 You cannot go that way!
 ---------------------------
@@ -24,10 +33,10 @@ Inventory : []
 >
 ```
 
-## Step 2
+## Step 3
 
-Experiment with other directions. Type `go south` to move from the hall to the kitchen, and then `go north` to go back to the hall again.
+Type `go south` to move to the kitchen, then `go north` to go back to the hall.
 
 ## Now run your code
 
-Try typing a direction that does not work, then move south to the kitchen and north back to the hall.
+Click **Run** to start a new game. Try a direction that does not work, then move south to the kitchen and north back to the hall.

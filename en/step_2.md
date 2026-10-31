@@ -10,7 +10,7 @@ Each room on the map can be coded as a **dictionary**, and rooms are linked toge
 
 Add the code below to make a new room, and link it to the hall.
 
-```python filename="main.py" line_numbers="true" line_number_start="1" line_highlights="6-7,11-13"
+```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="6-7,11-14"
 # A dictionary linking a room to other rooms
 rooms = {
     'Hall' : {
